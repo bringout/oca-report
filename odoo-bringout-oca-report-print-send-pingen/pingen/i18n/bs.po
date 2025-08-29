@@ -1,0 +1,680 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pingen
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__access_token
+msgid "Access Token"
+msgstr "Pristupni token"
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
+msgid "Ask pingen.com to send the document"
+msgstr "Zatraži od pingen.com da pošalje dokument"
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
+msgid "Attached To"
+msgstr "Prikačeno na"
+
+#. module: pingen
+#: model:ir.model,name:pingen.model_ir_attachment
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
+msgid "Attachment"
+msgstr "Prilog"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__local_url
+msgid "Attachment URL"
+msgstr "URL Zakačke"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__auto_send
+msgid "Auto Send"
+msgstr "Automatsko slanje"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__canceled
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_search
+msgid "Canceled"
+msgstr "Otkazano"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__checksum
+msgid "Checksum/SHA1"
+msgstr "Kontrolni zbroj/SHA1"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__print_spectrum__color
+msgid "Color"
+msgstr "Boja"
+
+#. module: pingen
+#: model:ir.model,name:pingen.model_res_company
+msgid "Companies"
+msgstr "Kompanije"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__company_id
+msgid "Company"
+msgstr "Preduzeće"
+
+#. module: pingen
+#: model:ir.model,name:pingen.model_res_config_settings
+msgid "Config Settings"
+msgstr "Postavke"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__error
+msgid "Connection Error"
+msgstr "Greška konekcije"
+
+#. module: pingen
+#. odoo-python
+#: code:addons/pingen/models/pingen_document.py:0
+#, python-format
+msgid "Connection Error when asking for sending the document %s to Pingen"
+msgstr "Uvek kodiraj brojeve telefona koristeći međunarodni format. Inače brojevi koji potiču iz zemlje kompanije su nacionalno formatirani. Međunarodni brojevi uvek koriste međunarodni format."
+
+#. module: pingen
+#. odoo-python
+#: code:addons/pingen/models/pingen_document.py:0
+#, python-format
+msgid "Connection Error when pushing document %s to Pingen"
+msgstr "Greška konekcije prilikom slanja dokumenta %s na Pingen"
+
+#. module: pingen
+#. odoo-python
+#: code:addons/pingen/models/pingen_document.py:0
+#, python-format
+msgid "Connection Error when updating the status of Document %s from Pingen"
+msgstr "Greška konekcije prilikom ažuriranja statusa dokumenta %s sa Pingen"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__cost
+msgid "Cost"
+msgstr "Trošak"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__country_id
+msgid "Country"
+msgstr "Država"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__currency_id
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
+msgid "Data"
+msgstr "Podaci"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__db_datas
+msgid "Database Data"
+msgstr "Podaci baze"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__send_date
+msgid "Date of sending"
+msgstr "Datum slanja"
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
+msgid "Dates"
+msgstr "Datumi"
+
+#. module: pingen
+#: model:ir.model.fields,help:pingen.field_pingen_document__auto_send
+msgid "Defines if a document is merely uploaded or also sent"
+msgstr "Definira da li je dokument samo učitan ili i poslan"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__delivery_product
+msgid "Delivery product"
+msgstr "Proizvod dostave"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__description
+msgid "Description"
+msgstr "Opis"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__attachment_id
+msgid "Document"
+msgstr "Dokument"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__print_mode__duplex
+msgid "Duplex"
+msgstr "Dupleks"
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_search
+msgid "Error"
+msgstr "Greška"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__last_error_message
+msgid "Error Message"
+msgstr "Poruka greške"
+
+#. module: pingen
+#. odoo-python
+#: code:addons/pingen/models/pingen_document.py:0
+#, python-format
+msgid ""
+"Error when asking Pingen to send the document %(name): \n"
+"%(exc)"
+msgstr ""
+
+#. module: pingen
+#. odoo-python
+#: code:addons/pingen/models/pingen_document.py:0
+#, python-format
+msgid ""
+"Error when pushing the document %(name) to Pingen:\n"
+"%(exc)"
+msgstr ""
+
+#. module: pingen
+#. odoo-python
+#: code:addons/pingen/models/pingen_document.py:0
+#, python-format
+msgid ""
+"Error when updating the status of Document %(name) from Pingen: \n"
+"%(exc)"
+msgstr ""
+
+#. module: pingen
+#. odoo-python
+#: code:addons/pingen/models/ir_attachment.py:0
+#, python-format
+msgid "Error. The attachment %s is already pushed to pingen.com."
+msgstr "Greška. Prilog %s je već poslan na pingen.com."
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
+msgid "Errors"
+msgstr "Greške"
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
+msgid "Errors resolved"
+msgstr "Greške riješene"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__datas
+msgid "File Content (base64)"
+msgstr "Sadržaj datoteke (base64)"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__raw
+msgid "File Content (raw)"
+msgstr "Sadržaj datoteke (sirovo)"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__file_size
+msgid "File Size"
+msgstr "Veličine datoteke"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__print_spectrum__grayscale
+msgid "Grayscale"
+msgstr "Siva skala"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__id
+msgid "ID"
+msgstr "ID"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__image_height
+msgid "Image Height"
+msgstr "Visina slike"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__image_src
+msgid "Image Src"
+msgstr "Izvor slike"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__image_width
+msgid "Image Width"
+msgstr "Širina slike"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__sendcenter
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_search
+msgid "In Sendcenter"
+msgstr "U centru za slanje"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__index_content
+msgid "Indexed Content"
+msgstr "Indeksiani sadržaj"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__public
+msgid "Is public document"
+msgstr "Je javni dokument"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__mimetype
+msgid "Mime Type"
+msgstr "Mime Tip"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__name
+msgid "Name"
+msgstr "Naziv:"
+
+#. module: pingen
+#: model:ir.model.constraint,message:pingen.constraint_pingen_document_pingen_document_attachment_uniq
+msgid "Only one Pingen document is allowed per attachment."
+msgstr "Samo jedan Pingen dokument je dozvoljen po prilogu."
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
+msgid "Options"
+msgstr "Opcije"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__original_id
+msgid "Original (unoptimized, unresized) attachment"
+msgstr "Originalni (neoptimizovani, promjena veličine) prilog"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__pages
+msgid "Pages"
+msgstr "Pages"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__parsed_address
+msgid "Parsed Address"
+msgstr "Parsirana adresa"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__pending
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_search
+msgid "Pending"
+msgstr "Na čekanju"
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.res_config_settings_view_form
+msgid "Pingen"
+msgstr "Pingen"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_res_config_settings__pingen_clientid
+msgid "Pingen Client ID"
+msgstr "Pingen Client ID"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_res_config_settings__pingen_client_secretid
+msgid "Pingen Client Secret ID"
+msgstr "Pingen Client Secret ID"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_res_company__pingen_client_secretid
+msgid "Pingen Client Secretid"
+msgstr "Pingen Client Secretid"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_res_company__pingen_clientid
+msgid "Pingen Clientid"
+msgstr "Pingen Clientid"
+
+#. module: pingen
+#: model:ir.actions.act_window,name:pingen.act_attachment_to_pingen_document
+#: model:ir.model.fields,field_description:pingen.field_ir_attachment__pingen_document_ids
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__pingen_document_ids
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
+msgid "Pingen Document"
+msgstr "Pingen dokument"
+
+#. module: pingen
+#: model:ir.actions.act_window,name:pingen.action_pingen_document
+#: model:ir.ui.menu,name:pingen.menu_pingen_document
+msgid "Pingen Documents"
+msgstr "Pingen dokumenti"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__pingen_error
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_search
+msgid "Pingen Error"
+msgstr "Pingen greška"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_res_config_settings__pingen_ssl_verify
+msgid "Pingen SSL Verification"
+msgstr "Pingen SSL provjera"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_res_company__pingen_ssl_verify
+msgid "Pingen Ssl Verify"
+msgstr "Pingen Ssl provjera"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_res_company__pingen_staging
+#: model:ir.model.fields,field_description:pingen.field_res_config_settings__pingen_staging
+msgid "Pingen Staging"
+msgstr "Pingen testno okruženje"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__pingen_status
+msgid "Pingen Status"
+msgstr "Pingen status"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__pingen_uuid
+msgid "Pingen Uuid"
+msgstr "Pingen Uuid"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_res_company__pingen_webhook_secret
+msgid "Pingen Webhook Secret"
+msgstr "Pingen Webhook tajni ključ"
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.view_attachment_form
+msgid "Pingen info"
+msgstr "Pingen informacije"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_res_config_settings__pingen_organization
+msgid "Pingen organization"
+msgstr "Pingen organizacija"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_res_company__pingen_organization
+msgid "Pingen organization ID"
+msgstr "Pingen ID organizacije"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_res_config_settings__pingen_webhook_secret
+msgid "Pingen webhook secret"
+msgstr "Pingen webhook tajni ključ"
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
+msgid "Pingen.com"
+msgstr "Pingen.com"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__print_spectrum
+msgid "Print Spectrum"
+msgstr "Spektar štampe"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__print_mode
+msgid "Print mode"
+msgstr "Način štampe"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__push_date
+msgid "Push Date"
+msgstr "Datum slanja"
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
+msgid "Push to pingen.com"
+msgstr "Pošalji na pingen.com"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__pushed
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_search
+msgid "Pushed"
+msgstr "Poslano"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__res_field
+msgid "Resource Field"
+msgstr "Polje resursa"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__res_id
+msgid "Resource ID"
+msgstr "ID Resursa"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__res_model
+msgid "Resource Model"
+msgstr "Model resursa"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__res_name
+msgid "Resource Name"
+msgstr "Naziv resursa"
+
+#. module: pingen
+#: model:ir.actions.server,name:pingen.ir_cron_push_pingen_ir_actions_server
+#: model:ir.cron,cron_name:pingen.ir_cron_push_pingen
+msgid "Run Pingen Document Push"
+msgstr "Pokreni slanje Pingen dokumenta"
+
+#. module: pingen
+#: model:ir.actions.server,name:pingen.ir_cron_update_pingen_ir_actions_server
+#: model:ir.cron,cron_name:pingen.ir_cron_update_pingen
+msgid "Run Pingen Document Update"
+msgstr "Pokreni ažuriranje Pingen dokumenta"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_ir_attachment__send_to_pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__send_to_pingen
+msgid "Send to Pingen.com"
+msgstr "Pošalji na Pingen.com"
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
+msgid "Sendcenter"
+msgstr "Centar za slanje"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__sent
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_search
+msgid "Sent"
+msgstr "Poslano"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__print_mode__simplex
+msgid "Simplex"
+msgstr "Simpleks"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__state
+msgid "State"
+msgstr "Status"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__store_fname
+msgid "Stored Filename"
+msgstr "Pohranjeni naziv datoteke"
+
+#. module: pingen
+#. odoo-python
+#: code:addons/pingen/models/ir_attachment.py:0
+#, python-format
+msgid "The type of attachment %s is not handled"
+msgstr "Tip priloga %s se ne obrađuje"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__type
+msgid "Type"
+msgstr "Tip"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__error_undeliverable
+msgid "Undeliverable"
+msgstr "Nedostavljivo"
+
+#. module: pingen
+#. odoo-python
+#: code:addons/pingen/models/pingen_document.py:0
+#, python-format
+msgid ""
+"Unexpected Error when pushing the document %(name) to Pingen:\n"
+"%(exc)"
+msgstr ""
+
+#. module: pingen
+#. odoo-python
+#: code:addons/pingen/models/pingen_document.py:0
+#: code:addons/pingen/models/pingen_document.py:0
+#, python-format
+msgid "Unexpected Error when updating the status of Document %s"
+msgstr "Neočekivana greška prilikom ažuriranja statusa dokumenta %s"
+
+#. module: pingen
+#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
+msgid "Update the letter's informations"
+msgstr "Ažuriraj informacije pisma"
+
+#. module: pingen
+#: model:ir.model.fields,field_description:pingen.field_pingen_document__url
+msgid "Url"
+msgstr "Url"
+
+#. module: pingen
+#: model:ir.model.fields,help:pingen.field_pingen_document__type
+msgid ""
+"You can either upload a file from your computer or copy/paste an internet "
+"link to your file."
+msgstr ""
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__atpost_economy
+msgid "atpost_economy"
+msgstr "atpost_economy"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__atpost_priority
+msgid "atpost_priority"
+msgstr "atpost_priority"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__bulk
+msgid "bulk"
+msgstr "bulk"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__cheap
+msgid "cheap"
+msgstr "jeftino"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__dhl_priority
+msgid "dhl_priority"
+msgstr "dhl_priority"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__dpag_economy
+msgid "dpag_economy"
+msgstr "dpag_economy"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__dpag_standard
+msgid "dpag_standard"
+msgstr "dpag_standard"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__fast
+msgid "fast"
+msgstr "brzo"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__indpost_mail
+msgid "indpost_mail"
+msgstr "indpost_mail"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__indpost_speedmail
+msgid "indpost_speedmail"
+msgstr "indpost_speedmail"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__nlpost_priority
+msgid "nlpost_priority"
+msgstr "nlpost_priority"
+
+#. module: pingen
+#: model:ir.model,name:pingen.model_pingen_document
+msgid "pingen.document"
+msgstr "pingen.document"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__postag_a
+msgid "postag_a"
+msgstr "postag_a"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__postag_aplus
+msgid "postag_aplus"
+msgstr "postag_aplus"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__postag_b
+msgid "postag_b"
+msgstr "postag_b"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__postag_b2
+msgid "postag_b2"
+msgstr "postag_b2"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__postag_registered
+msgid "postag_registered"
+msgstr "postag_registered"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__sign
+msgid "sign"
+msgstr "potpis"
+
+#. module: pingen
+#: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__track
+msgid "track"
+msgstr "praćenje"

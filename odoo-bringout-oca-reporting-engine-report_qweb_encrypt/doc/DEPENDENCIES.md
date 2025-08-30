@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [web](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-web)
+- [web](https://github.com/bringout/oca-ocb-core)

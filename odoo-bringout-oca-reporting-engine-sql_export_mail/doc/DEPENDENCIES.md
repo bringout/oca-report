@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [mail](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-mail)
-- [sql_export](../../../../odoo-bringout-oca-reporting-engine-sql_export)
+- [mail](https://github.com/bringout/oca-ocb-core)
+- [sql_export](https://github.com/bringout/oca-report)

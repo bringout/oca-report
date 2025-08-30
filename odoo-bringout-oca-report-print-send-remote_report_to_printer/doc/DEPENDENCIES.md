@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [base_remote](../../../../../oca-technical/odoo-bringout-oca-server-tools-base_remote)
-- [base_report_to_printer](../../../../odoo-bringout-oca-report-print-send-base_report_to_printer)
+- [base_remote](https://github.com/bringout/oca-technical)
+- [base_report_to_printer](https://github.com/bringout/oca-report)

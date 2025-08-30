@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [mail](../../odoo-bringout-oca-ocb-mail)
+- [mail](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-mail)

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [pingen](../../odoo-bringout-oca-report-print-send-pingen)
+- [pingen](../../../../odoo-bringout-oca-report-print-send-pingen)
 - server_environment

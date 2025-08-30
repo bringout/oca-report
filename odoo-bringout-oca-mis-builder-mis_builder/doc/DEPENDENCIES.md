@@ -2,7 +2,7 @@
 
 This addon depends on:
 
-- [account](https://github.com/bringout/oca-ocb-accounting/tree/b11fb50e2ed11eec1e305a0df730b49554c01199/odoo-bringout-oca-ocb-account)
-- [board](https://github.com/bringout/oca-ocb-core/tree/b3e6fb998e53b9eb1bc9669d992017616c2bd7b3/odoo-bringout-oca-ocb-board)
+- [account](https://github.com/bringout/oca-ocb-accounting/tree/eb4335e9848ccce1d07fb3692af80937feeb0e3c/odoo-bringout-oca-ocb-account)
+- [board](https://github.com/bringout/oca-ocb-core/tree/5ee733c06c9a8113e4e3fc04ef7a99c41bc0b970/odoo-bringout-oca-ocb-board)
 - [report_xlsx](https://github.com/bringout/oca-report)
 - [date_range](https://github.com/bringout/oca-technical)

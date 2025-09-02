@@ -37,9 +37,21 @@ try:
 except ImportError:
     logger.debug("Cannot import py3o.formats")
 try:
-    from PyPDF2 import PdfFileReader, PdfFileWriter
+    from PyPDF2 import PdfWriter, PdfReader
+    
+    # Create compatibility classes for PyPDF2 3.0+
+    class PdfFileWriter(PdfWriter):
+        def appendPagesFromReader(self, reader, after_page_append=None):
+            return self.append_pages_from_reader(reader, after_page_append)
+    
+    class PdfFileReader(PdfReader):
+        pass
+
 except ImportError:
-    logger.debug("Cannot import PyPDF2")
+    try:
+        from PyPDF2 import PdfFileReader, PdfFileWriter
+    except ImportError:
+        logger.debug("Cannot import PyPDF2")
 
 _extender_functions = {}
 

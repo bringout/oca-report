@@ -19,10 +19,23 @@ except ImportError:
     logger.error("ImportError: The PdfImagePlugin could not be imported")
 
 try:
-    from PyPDF2 import PdfFileReader, PdfFileWriter  # pylint: disable=W0404
-    from PyPDF2.utils import PdfReadError  # pylint: disable=W0404
+    from PyPDF2 import PdfWriter, PdfReader
+    from PyPDF2.errors import PdfReadError
+    
+    # Create compatibility classes for PyPDF2 3.0+
+    class PdfFileWriter(PdfWriter):
+        def addBlankPage(self, width=None, height=None):
+            return self.add_blank_page(width, height)
+    
+    class PdfFileReader(PdfReader):
+        pass
+
 except ImportError:
-    logger.debug("Can not import PyPDF2")
+    try:
+        from PyPDF2 import PdfFileWriter, PdfFileReader  # pylint: disable=W0404
+        from PyPDF2.utils import PdfReadError  # pylint: disable=W0404
+    except ImportError:
+        logger.debug("Can not import PyPDF2")
 
 
 class Report(models.Model):

@@ -3,7 +3,19 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 from io import BytesIO
 
-from PyPDF2 import PdfFileReader, PdfFileWriter
+try:
+    from PyPDF2 import PdfWriter, PdfReader
+    
+    # Create compatibility classes for PyPDF2 3.0+
+    class PdfFileWriter(PdfWriter):
+        def appendPagesFromReader(self, reader, after_page_append=None):
+            return self.append_pages_from_reader(reader, after_page_append)
+    
+    class PdfFileReader(PdfReader):
+        pass
+
+except ImportError:
+    from PyPDF2 import PdfFileWriter, PdfFileReader
 
 from odoo import _, fields, models
 from odoo.exceptions import ValidationError

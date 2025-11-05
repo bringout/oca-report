@@ -44,6 +44,8 @@ msgid ""
 "If you configure an excel file (in xlsx format) here, the result of the query will be injected in it.\n"
 "It is usefull to feed data in a excel file pre-configured with calculation"
 msgstr ""
+"Ako konfigurirate excel datoteku (u xlsx formatu) ovdje, rezultat upita će biti ubačen u nju.\n"
+"Korisno je za unošenje podataka u excel datoteku predkonfiguriranu sa kalkulacijama"
 
 #. module: sql_export_excel
 #: model:ir.model.fields,help:sql_export_excel.field_sql_export__col_position
@@ -66,6 +68,8 @@ msgid ""
 "Indicate the sheet's position of the excel template where the result of the "
 "sql query should be injected."
 msgstr ""
+"Navedite poziciju lista excel predloška gdje treba ubaciti rezultat SQL "
+"upita."
 
 #. module: sql_export_excel
 #: model:ir.model.fields,field_description:sql_export_excel.field_sql_export__row_position
@@ -84,30 +88,32 @@ msgstr "Pozicija lista"
 
 #. module: sql_export_excel
 #. odoo-python
-#: code:addons/sql_export_excel/models/sql_export.py:0
+#: code:addons/sql_export_excel/models/sql_export.py
 #, python-format
 msgid ""
 "The Excel Template file contains less than %s sheets Please, adjust the "
 "Sheet Position parameter."
 msgstr ""
+"Excel predložak datoteka sadrži manje od %s listova. Molimo prilagodite "
+"parametar pozicije lista."
 
 #. module: sql_export_excel
 #. odoo-python
-#: code:addons/sql_export_excel/models/sql_export.py:0
+#: code:addons/sql_export_excel/models/sql_export.py
 #, python-format
 msgid "The column position can't be less than 1."
 msgstr "Pozicija kolone ne može biti manja od 1."
 
 #. module: sql_export_excel
 #. odoo-python
-#: code:addons/sql_export_excel/models/sql_export.py:0
+#: code:addons/sql_export_excel/models/sql_export.py
 #, python-format
 msgid "The row position can't be less than 1."
 msgstr "Pozicija reda ne može biti manja od 1."
 
 #. module: sql_export_excel
 #. odoo-python
-#: code:addons/sql_export_excel/models/sql_export.py:0
+#: code:addons/sql_export_excel/models/sql_export.py
 #, python-format
 msgid "The sheet position can't be less than 1."
 msgstr "Pozicija lista ne može biti manja od 1."

@@ -31,11 +31,12 @@ msgstr "Kodna stranica:"
 #. module: report_csv
 #: model:ir.model.fields,help:report_csv.field_ir_actions_report__encoding
 msgid "Encoding to be applied to the generated CSV file. e.g. cp932"
-msgstr "Kodiranje koje će se primijeniti na generisanu CSV datoteku. npr. cp932"
+msgstr ""
+"Kodiranje koje će se primijeniti na generisanu CSV datoteku. npr. cp932"
 
 #. module: report_csv
 #. odoo-python
-#: code:addons/report_csv/report/report_csv.py:0
+#: code:addons/report_csv/report/report_csv.py
 #, python-format
 msgid "Failed to encode the data with the encoding set in the report."
 msgstr "Neuspjeh kodiranja podataka s kodiranjem postavljenim u izvještaju."
@@ -46,6 +47,8 @@ msgid ""
 "If nothing is selected, CSV export will fail with an error message when "
 "there is a character that fail to be encoded."
 msgstr ""
+"Ako ništa nije odabrano, CSV izvoz će neuspjeti s porukom greške kad postoji"
+" karakter koji se ne može kodirati."
 
 #. module: report_csv
 #: model:ir.model.fields.selection,name:report_csv.selection__ir_actions_report__encode_error_handling__ignore
@@ -85,6 +88,10 @@ msgid ""
 "browser PDF means the report will be rendered using Wkhtmltopdf and "
 "downloaded by the user."
 msgstr ""
+"Tip izvještaja koji će biti renderovan, svaki ima svoj metod renderiranja. "
+"HTML znači da će se izvještaj otvoriti direktno u vašem pregledniku, PDF "
+"znači da će se izvještaj renderovati koristeći Wkhtmltopdf i korisnik će ga "
+"preuzeti."
 
 #. module: report_csv
 #: model:ir.model.fields.selection,name:report_csv.selection__ir_actions_report__report_type__csv

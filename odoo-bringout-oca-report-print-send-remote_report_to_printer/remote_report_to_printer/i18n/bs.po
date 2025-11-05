@@ -60,7 +60,7 @@ msgstr "Zadnje ažurirano"
 
 #. module: remote_report_to_printer
 #. odoo-python
-#: code:addons/remote_report_to_printer/models/res_remote_printer.py:0
+#: code:addons/remote_report_to_printer/models/res_remote_printer.py
 #, python-format
 msgid "Only one default printer is allowed"
 msgstr "Identifikator ocijenjenog objekta"
@@ -72,7 +72,6 @@ msgstr "Akcija ispisa zadatka"
 
 #. module: remote_report_to_printer
 #: model:ir.model,name:remote_report_to_printer.model_printing_printer
-#: model:ir.model.fields,field_description:remote_report_to_printer.field_res_remote_printer__printer_id
 msgid "Printer"
 msgstr "Pisač"
 
@@ -98,8 +97,6 @@ msgstr "Udaljeni"
 
 #. module: remote_report_to_printer
 #: model:ir.model,name:remote_report_to_printer.model_res_remote_printer
-#: model:ir.model.fields,field_description:remote_report_to_printer.field_res_remote__remote_printer_ids
-#: model_terms:ir.ui.view,arch_db:remote_report_to_printer.res_remote_printer_form
 msgid "Remote Printer"
 msgstr "Udaljeni štampač"
 
@@ -110,8 +107,6 @@ msgstr "Udaljeni koji može koristiti ovaj štampač."
 
 #. module: remote_report_to_printer
 #: model:ir.model,name:remote_report_to_printer.model_res_remote
-#: model:ir.model.fields,field_description:remote_report_to_printer.field_printing_printer__printer_remote_ids
-#: model_terms:ir.ui.view,arch_db:remote_report_to_printer.printing_printer_form_view
 msgid "Remotes"
 msgstr "Udaljeni"
 

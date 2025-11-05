@@ -30,7 +30,6 @@ msgstr "Broj priloga"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config__comment
-#: model:ir.model.fields,field_description:printing_simple_configuration.field_printer__comment
 msgid "Comment"
 msgstr "Komentar"
 
@@ -41,7 +40,6 @@ msgstr "Kompanije"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config__company_id
-#: model:ir.model.fields,field_description:printing_simple_configuration.field_printer__company_id
 msgid "Company"
 msgstr "Preduzeće"
 
@@ -52,20 +50,20 @@ msgstr "Konfiguracija"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config__create_uid
-#: model:ir.model.fields,field_description:printing_simple_configuration.field_printer__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config__create_date
-#: model:ir.model.fields,field_description:printing_simple_configuration.field_printer__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,help:printing_simple_configuration.field_printer__usage
 msgid "Developers may use this to guess adapted printers for their workflows"
-msgstr "Programeri mogu koristiti ovo da pretpostave prilagođene štampače za njihove radne procese"
+msgstr ""
+"Programeri mogu koristiti ovo da pretpostave prilagođene štampače za njihove"
+" radne procese"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_printer__display_name
@@ -77,6 +75,8 @@ msgstr "Prikazani naziv"
 msgid ""
 "Ensure all informations here match with your own network configuration."
 msgstr ""
+"Osigurajte da se sve informacije ovdje poklapaju s vašom mrežnom "
+"konfiguracijom."
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config__message_follower_ids
@@ -95,7 +95,6 @@ msgstr "Ima poruku"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config__id
-#: model:ir.model.fields,field_description:printing_simple_configuration.field_printer__id
 msgid "ID"
 msgstr "ID"
 
@@ -121,19 +120,16 @@ msgstr "Pratilac"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config____last_update
-#: model:ir.model.fields,field_description:printing_simple_configuration.field_printer____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config__write_uid
-#: model:ir.model.fields,field_description:printing_simple_configuration.field_printer__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config__write_date
-#: model:ir.model.fields,field_description:printing_simple_configuration.field_printer__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -149,6 +145,9 @@ msgid ""
 "In some case, erp project may be imply minimal config as module data\n"
 "with some fields might updated within the interface"
 msgstr ""
+"Učini neka polja samo za čitanje u pogledima ako je postavljena na Tačno.\n"
+"U nekim slučajevima, ERP projekat može imati minimalnu konfiguraciju kao module podatke\n"
+"s nekim poljima koja se mogu ažurirati kroz interfejs"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config__message_has_error
@@ -162,7 +161,6 @@ msgstr "Poruke"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config__display_name
-#: model:ir.model.fields,field_description:printing_simple_configuration.field_printer__name
 msgid "Name"
 msgstr "Naziv:"
 
@@ -223,7 +221,7 @@ msgstr "Jednostavna konfiguracija štampanja"
 
 #. module: printing_simple_configuration
 #. odoo-python
-#: code:addons/printing_simple_configuration/models/printer.py:0
+#: code:addons/printing_simple_configuration/models/printer.py
 #, python-format
 msgid "There is no printer accessible to you in the company %s"
 msgstr "Nema štampača dostupnih vama u kompaniji %s"

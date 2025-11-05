@@ -21,7 +21,7 @@ msgstr "CR (\\\\r)"
 #. module: report_text_format_option
 #: model:ir.model.fields.selection,name:report_text_format_option.selection__ir_actions_report__line_ending__crlf
 msgid "CRLF (\\r\\n)"
-msgstr ""
+msgstr "CRLF (\\r\\n)"
 
 #. module: report_text_format_option
 #: model:ir.actions.report,name:report_text_format_option.action_report_demo
@@ -31,7 +31,9 @@ msgstr "Demo tekstualni izvještaj"
 #. module: report_text_format_option
 #: model:ir.model.fields,help:report_text_format_option.field_ir_actions_report__text_encoding
 msgid "Encoding to be applied to the generated Text file. e.g. cp932"
-msgstr "Kodiranje koje će se primijeniti na generiranu tekstualnu datoteku. npr. cp932"
+msgstr ""
+"Kodiranje koje će se primijeniti na generiranu tekstualnu datoteku. npr. "
+"cp932"
 
 #. module: report_text_format_option
 #: model_terms:ir.ui.view,arch_db:report_text_format_option.demo_report_template
@@ -44,6 +46,8 @@ msgid ""
 "If nothing is selected, text export will fail with an error message when "
 "there is a character that fail to be encoded."
 msgstr ""
+"Ako ništa nije odabrano, izvoz teksta neće uspjeti s porukom o grešci kada "
+"postoji znak koji se ne može kodirati."
 
 #. module: report_text_format_option
 #: model:ir.model.fields.selection,name:report_text_format_option.selection__ir_actions_report__text_encode_error_handling__ignore
@@ -71,6 +75,8 @@ msgid ""
 "Select the type of line ending in case the report needs to be output with "
 "other line ending than 'LF'."
 msgstr ""
+"Odaberite vrstu završetka reda ako izvještaj treba biti generisan sa "
+"završetkom reda drugačijim od 'LF'."
 
 #. module: report_text_format_option
 #: model:ir.model.fields,field_description:report_text_format_option.field_ir_actions_report__text_encode_error_handling

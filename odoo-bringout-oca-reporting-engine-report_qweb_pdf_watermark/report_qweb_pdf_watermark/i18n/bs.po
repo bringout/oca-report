@@ -19,6 +19,8 @@ msgid ""
 "An expression yielding the base64 encoded data to be used as watermark. \n"
 "You have access to variables `env` and `docs`"
 msgstr ""
+"Izraz koji daje base64 kodirane podatke koji će se koristiti kao vodeni žig. \n"
+"Imate pristup varijablama `env` i `docs`"
 
 #. module: report_qweb_pdf_watermark
 #: model:ir.model,name:report_qweb_pdf_watermark.model_res_company
@@ -36,11 +38,15 @@ msgid ""
 "Upload an pdf file to use as an Company watermark. You need to activate the "
 "setting 'use company watermark' on the reports where you want to use it."
 msgstr ""
+"Učitajte PDF datoteku koju ćete koristiti kao vodeni žig kompanije. Morate "
+"aktivirati postavku 'koristi vodeni žig kompanije' na izvještajima na kojima"
+" ga želite koristiti."
 
 #. module: report_qweb_pdf_watermark
 #: model:ir.model.fields,help:report_qweb_pdf_watermark.field_ir_actions_report__pdf_watermark
 msgid "Upload an pdf file to use as an watermark on this report."
-msgstr "Učitajte PDF datoteku koju ćete koristiti kao vodeni žig na ovom izvještaju."
+msgstr ""
+"Učitajte PDF datoteku koju ćete koristiti kao vodeni žig na ovom izvještaju."
 
 #. module: report_qweb_pdf_watermark
 #: model:ir.model.fields,field_description:report_qweb_pdf_watermark.field_ir_actions_report__use_company_watermark
@@ -54,7 +60,6 @@ msgstr "Koristite PDF vodeni žig definisan globalno u postavkama kompanije."
 
 #. module: report_qweb_pdf_watermark
 #: model:ir.model.fields,field_description:report_qweb_pdf_watermark.field_ir_actions_report__pdf_watermark
-#: model:ir.model.fields,field_description:report_qweb_pdf_watermark.field_res_company__pdf_watermark
 msgid "Watermark"
 msgstr "Vodeni žig"
 

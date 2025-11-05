@@ -46,6 +46,10 @@ msgid ""
 "browser PDF means the report will be rendered using Wkhtmltopdf and "
 "downloaded by the user."
 msgstr ""
+"Tip izvještaja koji će biti renderovan, svaki ima svoj metod renderiranja. "
+"HTML znači da će se izvještaj otvoriti direktno u vašem pregledniku, PDF "
+"znači da će se izvještaj renderovati koristeći Wkhtmltopdf i korisnik će ga "
+"preuzeti."
 
 #. module: report_xlsx
 #: model:ir.model.fields.selection,name:report_xlsx.selection__ir_actions_report__report_type__xlsx

@@ -20,14 +20,14 @@ msgstr "PDF zadnje korice"
 
 #. module: report_qweb_pdf_cover
 #. odoo-python
-#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py
 #, python-format
 msgid "Failed to load back cover: %s"
 msgstr "Neuspješno to load back cover: %s"
 
 #. module: report_qweb_pdf_cover
 #. odoo-python
-#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py
 #, python-format
 msgid "Failed to load front cover: %s"
 msgstr "Neuspješno to load front cover: %s"
@@ -39,14 +39,14 @@ msgstr "PDF prednje korice"
 
 #. module: report_qweb_pdf_cover
 #. odoo-python
-#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py
 #, python-format
 msgid "No usable back cover found."
 msgstr "No usable back cover found."
 
 #. module: report_qweb_pdf_cover
 #. odoo-python
-#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py
 #, python-format
 msgid "No usable front cover found."
 msgstr "No usable front cover found."
@@ -69,12 +69,16 @@ msgstr "Akcija izvještaja"
 #. module: report_qweb_pdf_cover
 #: model:ir.model.fields,help:report_qweb_pdf_cover.field_ir_actions_report__back_cover_pdf
 msgid "Upload an PDF file to use as a back cover on this report."
-msgstr "Učitajte PDF datoteku koju ćete koristiti kao zadnju koricu na ovom izvještaju."
+msgstr ""
+"Učitajte PDF datoteku koju ćete koristiti kao zadnju koricu na ovom "
+"izvještaju."
 
 #. module: report_qweb_pdf_cover
 #: model:ir.model.fields,help:report_qweb_pdf_cover.field_ir_actions_report__front_cover_pdf
 msgid "Upload an PDF file to use as a front cover on this report."
-msgstr "Učitajte PDF datoteku koju ćete koristiti kao prednju koricu na ovom izvještaju."
+msgstr ""
+"Učitajte PDF datoteku koju ćete koristiti kao prednju koricu na ovom "
+"izvještaju."
 
 #. module: report_qweb_pdf_cover
 #: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__use_back_cover
@@ -103,6 +107,9 @@ msgid ""
 " last page of the report. This is useful to include some information of the "
 "report in the back cover."
 msgstr ""
+"Kada je postavljeno, zadnja korica izvještaja će se preklapati sa sadržajem "
+"posljednje stranice izvještaja. Ovo je korisno za uključivanje nekih "
+"informacija iz izvještaja na zadnju koricu."
 
 #. module: report_qweb_pdf_cover
 #: model:ir.model.fields,help:report_qweb_pdf_cover.field_ir_actions_report__front_cover_overlap
@@ -111,35 +118,42 @@ msgid ""
 "the first page of the report. This is useful to include some information of "
 "the report in the front cover."
 msgstr ""
+"Kada je postavljeno, prednja korica izvještaja će se preklapati sa sadržajem"
+" prve stranice izvještaja. Ovo je korisno za uključivanje nekih informacija "
+"iz izvještaja na prednju koricu."
 
 #. module: report_qweb_pdf_cover
 #. odoo-python
-#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py
 #, python-format
 msgid ""
 "Your back cover PDF contains more than one page, all but the first one will "
 "be ignored."
 msgstr ""
+"Your back cover PDF contains more than one page, all but the first one will "
+"be ignored."
 
 #. module: report_qweb_pdf_cover
 #. odoo-python
-#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py
 #, python-format
 msgid "Your back cover PDF does not contain any pages."
 msgstr "Your back cover PDF does not contain any pages."
 
 #. module: report_qweb_pdf_cover
 #. odoo-python
-#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py
 #, python-format
 msgid ""
 "Your front cover PDF contains more than one page, all but the first one will"
 " be ignored."
 msgstr ""
+"Vaš PDF prednje korice sadrži više od jedne stranice, sve osim prve će biti "
+"zanemarene."
 
 #. module: report_qweb_pdf_cover
 #. odoo-python
-#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py
 #, python-format
 msgid "Your front cover PDF does not contain any pages."
 msgstr "Vaš PDF prednje korice ne sadrži nijednu stranicu."

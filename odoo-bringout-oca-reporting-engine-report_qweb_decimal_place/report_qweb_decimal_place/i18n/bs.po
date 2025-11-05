@@ -24,6 +24,8 @@ msgid ""
 "Apply this decimal place to the unit price field of relevant PDF reports "
 "where appropriate customization is done."
 msgstr ""
+"Apply this decimal place to the unit Cijena field of relevant PDF Izvještaji"
+" where appropriate customization is Završeno."
 
 #. module: report_qweb_decimal_place
 #: model:ir.model,name:report_qweb_decimal_place.model_res_currency
@@ -33,7 +35,8 @@ msgstr "Valuta"
 #. module: report_qweb_decimal_place
 #: model:ir.model.fields,help:report_qweb_decimal_place.field_res_currency__price_decimal_places
 msgid "Define decimal places for the unit price field of relevant PDF reports"
-msgstr "Define decimal places for the unit Cijena field of relevant PDF Izvještaji"
+msgstr ""
+"Define decimal places for the unit Cijena field of relevant PDF Izvještaji"
 
 #. module: report_qweb_decimal_place
 #: model:ir.model.fields,field_description:report_qweb_decimal_place.field_res_currency__price_decimal_places

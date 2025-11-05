@@ -20,13 +20,11 @@ msgstr "Potrebna akcija"
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__group_ids
-#: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
 msgid "Allowed Groups"
 msgstr "Dozvoljene grupe"
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__user_ids
-#: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
 msgid "Allowed Users"
 msgstr "Dozvoljeni korisnici"
 
@@ -35,10 +33,9 @@ msgstr "Dozvoljeni korisnici"
 msgid "Attachment Count"
 msgstr "Broj priloga"
 
+# taken from hr.po
 #. module: sql_request_abstract
 #: model:ir.model.fields.selection,name:sql_request_abstract.selection__bi_sql_view__state__draft
-#: model:ir.model.fields.selection,name:sql_request_abstract.selection__sql_export__state__draft
-#: model:ir.model.fields.selection,name:sql_request_abstract.selection__sql_request_mixin__state__draft
 msgid "Draft"
 msgstr "U pripremi"
 
@@ -79,7 +76,7 @@ msgstr "Pratilac"
 
 #. module: sql_request_abstract
 #. odoo-python
-#: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
+#: code:addons/sql_request_abstract/models/sql_request_mixin.py
 #, python-format
 msgid "It is not allowed to execute a not checked request."
 msgstr "Nije dozvoljeno izvršiti neprovjereni zahtjev."
@@ -96,12 +93,14 @@ msgstr "Upravitelj"
 
 #. module: sql_request_abstract
 #. odoo-python
-#: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
+#: code:addons/sql_request_abstract/models/sql_request_mixin.py
 #, python-format
 msgid ""
 "Materialized View requires PostgreSQL 9.3 or greater but PostgreSQL %s is "
 "currently installed."
 msgstr ""
+"Materijalizirani pogled zahtijeva PostgreSQL 9.3 ili noviji, ali PostgreSQL "
+"%s je trenutno instaliran."
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_has_error
@@ -113,6 +112,7 @@ msgstr "Greška pri isporuci poruke"
 msgid "Messages"
 msgstr "Poruke"
 
+# taken from hr.po
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__name
 msgid "Name"
@@ -120,7 +120,6 @@ msgstr "Ime"
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__note
-#: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
 msgid "Note"
 msgstr "Zabilješka"
 
@@ -176,8 +175,6 @@ msgstr "SQL postavke"
 
 #. module: sql_request_abstract
 #: model:ir.model.fields.selection,name:sql_request_abstract.selection__bi_sql_view__state__sql_valid
-#: model:ir.model.fields.selection,name:sql_request_abstract.selection__sql_export__state__sql_valid
-#: model:ir.model.fields.selection,name:sql_request_abstract.selection__sql_request_mixin__state__sql_valid
 msgid "SQL Valid"
 msgstr "SQL valjan"
 
@@ -191,6 +188,7 @@ msgstr "Sigurnost"
 msgid "Set to Draft"
 msgstr "Postavi u pripremu"
 
+# taken from hr.po
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__state
 msgid "State"
@@ -203,6 +201,9 @@ msgid ""
 " * 'Draft': Not tested\n"
 " * 'SQL Valid': SQL Request has been checked and is valid"
 msgstr ""
+"Stanje zahtjeva:\n"
+" * 'Nacrt': Nije testirano\n"
+" * 'SQL valjan': SQL zahtjev je provjeren i valjan"
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__has_group_changed
@@ -210,31 +211,37 @@ msgid ""
 "Technical fields, used in modules that depends on this one to know if groups"
 " has changed, and that according access should be updated."
 msgstr ""
+"Tehnička polja, koriste se u modulima koji zavise od ovog da znaju je li "
+"grupa promijenjena, i da li treba ažurirati odgovarajući pristup."
 
 #. module: sql_request_abstract
 #. odoo-python
-#: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
+#: code:addons/sql_request_abstract/models/sql_request_mixin.py
 #, python-format
 msgid ""
 "The SQL query is not valid:\n"
 "\n"
 " %s"
 msgstr ""
+"SQL upit nije valjan:\n"
+"\n"
+" %s"
 
 #. module: sql_request_abstract
 #. odoo-python
-#: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
+#: code:addons/sql_request_abstract/models/sql_request_mixin.py
 #, python-format
 msgid "The query is not allowed because it contains unsafe word '%s'"
 msgstr "Upit nije dozvoljen jer sadrži nebezbjednu riječ '%s'"
 
 #. module: sql_request_abstract
 #. odoo-python
-#: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
+#: code:addons/sql_request_abstract/models/sql_request_mixin.py
 #, python-format
 msgid "Unimplemented mode : '%s'"
 msgstr "Neimplementiran način rada: '%s'"
 
+# taken from hr.po
 #. module: sql_request_abstract
 #: model:res.groups,name:sql_request_abstract.group_sql_request_user
 msgid "User"
@@ -251,3 +258,5 @@ msgid ""
 "You can't use the following words: DELETE, DROP, CREATE, INSERT, ALTER, "
 "TRUNCATE, EXECUTE, UPDATE."
 msgstr ""
+"Ne možete koristiti sljedeće riječi: DELETE, DROP, CREATE, INSERT, ALTER, "
+"TRUNCATE, EXECUTE, UPDATE."

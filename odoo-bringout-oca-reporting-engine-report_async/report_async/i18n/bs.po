@@ -50,6 +50,38 @@ msgid ""
 "            </table>\n"
 "        "
 msgstr ""
+"                                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\">\n"
+"                                        <tr>\n"
+"                                        <td align=\"center\">\n"
+"                                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"                                        <tbody>\n"
+"                                        <tr>\n"
+"                                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                                        <tr>\n"
+"                                        <td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                                        <t t-set=\"base_url\" t-value=\"object.env['ir.config_parameter'].sudo().get_param('web.base.url')\"></t>\n"
+"                                        <t t-set=\"download_url\" t-value=\"'%s/web/content/ir.attachment/%s/datas/%s?download=true' % (base_url, object.id, object.name, )\"></t>\n"
+"                                        <div>\n"
+"                                        Dragi <t t-out=\"object.create_uid.partner_id.name or ''\"></t>,\n"
+"                                        <br><br>\n"
+"                                        Vaš zahtjevano izvještaj, <t t-out=\"object.name\"></t>, je dostupan za <b>\n"
+"                                        <a t-attf-href=\"{{ download_url }}\">preuzimanje</a>\n"
+"                                        </b>.\n"
+"                                        <br><br>\n"
+"                                        Ugodan dan!<br>\n"
+"                                        --<br><t t-out=\"object.company_id.name\"></t>\n"
+"                                        </div>\n"
+"                                        </td>\n"
+"                                        </tr>\n"
+"                                        </table>\n"
+"                                        </td>\n"
+"                                        </tr>\n"
+"                                        </tbody>\n"
+"                                        </table>\n"
+"                                        </td>\n"
+"                                        </tr>\n"
+"                                        </table>\n"
 
 #. module: report_async
 #: model:ir.model,name:report_async.model_ir_actions_act_window
@@ -63,7 +95,7 @@ msgstr "Dozvoli asinhrono"
 
 #. module: report_async
 #. odoo-python
-#: code:addons/report_async/models/report_async.py:0
+#: code:addons/report_async/models/report_async.py
 #, python-format
 msgid "Background process not allowed."
 msgstr "Pozadinski proces nije dozvoljen."
@@ -75,19 +107,16 @@ msgstr "Otkaži"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__create_uid
-#: model:ir.model.fields,field_description:report_async.field_report_async__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__create_date
-#: model:ir.model.fields,field_description:report_async.field_report_async__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__display_name
-#: model:ir.model.fields,field_description:report_async.field_report_async__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -128,7 +157,6 @@ msgstr "Datoteka"
 
 #. module: report_async
 #: model_terms:ir.ui.view,arch_db:report_async.view_report_async_form
-#: model_terms:ir.ui.view,arch_db:report_async.view_report_async_tree
 msgid "Files"
 msgstr "Datoteke"
 
@@ -139,7 +167,6 @@ msgstr "Grupe"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__id
-#: model:ir.model.fields,field_description:report_async.field_report_async__id
 msgid "ID"
 msgstr "ID"
 
@@ -165,7 +192,6 @@ msgstr "Zadaci"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard____last_update
-#: model:ir.model.fields,field_description:report_async.field_report_async____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
@@ -176,13 +202,11 @@ msgstr "Greška zadnjeg pokrenutog posla"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__write_uid
-#: model:ir.model.fields,field_description:report_async.field_report_async__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__write_date
-#: model:ir.model.fields,field_description:report_async.field_report_async__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -222,6 +246,8 @@ msgid ""
 "Only user in selected groups can use this report.If left blank, everyone can"
 " use"
 msgstr ""
+"Samo korisnici u odabranim grupama mogu koristiti ovaj izvještaj. Ako je "
+"ostavljeno prazno, svi mogu koristiti"
 
 #. module: report_async
 #: model:ir.model.fields.selection,name:report_async.selection__report_async__job_status__pending
@@ -255,8 +281,6 @@ msgstr "Asinhroni izvještaj: Novi izvještaj dostupan"
 
 #. module: report_async
 #: model:ir.actions.act_window,name:report_async.action_report_async
-#: model:ir.ui.menu,name:report_async.menu_report_async
-#: model_terms:ir.ui.view,arch_db:report_async.view_report_async_search
 msgid "Report Center"
 msgstr "Centar izvještaja"
 
@@ -277,13 +301,11 @@ msgstr "Izvještaji"
 
 #. module: report_async
 #: model_terms:ir.ui.view,arch_db:report_async.view_report_async_form
-#: model_terms:ir.ui.view,arch_db:report_async.view_report_async_tree
 msgid "Run Background"
 msgstr "Pokreni u pozadini"
 
 #. module: report_async
 #: model_terms:ir.ui.view,arch_db:report_async.view_report_async_form
-#: model_terms:ir.ui.view,arch_db:report_async.view_report_async_tree
 msgid "Run Now"
 msgstr "Pokreni sad"
 
@@ -308,6 +330,8 @@ msgid ""
 "The last <i class=\"fa fa-cogs\"/> <b>running job</b> was failed.\n"
 "                        Please contact your system administrator."
 msgstr ""
+"Zadnji <i class=\"fa fa-cogs\"/> <b>pokrenuti posao</b> nije uspješan.\n"
+"                        Molimo kontaktirajte vašeg sistem administratora."
 
 #. module: report_async
 #: model_terms:ir.ui.view,arch_db:report_async.view_report_async_form
@@ -315,6 +339,8 @@ msgid ""
 "The last <i class=\"fa fa-cogs\"/> <b>running job</b> was succeed.\n"
 "                        You can check the result in <i class=\"fa fa-copy\"/><b> Files</b>"
 msgstr ""
+"Zadnji <i class=\"fa fa-cogs\"/> <b>pokrenuti posao</b> je uspješan.\n"
+"                        Možete provjeriti rezultat u <i class=\"fa fa-copy\"/><b> Datoteke</b>"
 
 #. module: report_async
 #: model_terms:ir.ui.view,arch_db:report_async.view_report_async_form
@@ -323,6 +349,9 @@ msgid ""
 "                        <b>job</b>, and will be available at\n"
 "                        <i class=\"fa fa-copy\"/><b> Files</b>"
 msgstr ""
+"Izvještaj će se pokretati pomoću <i class=\"fa fa-cogs\"/>\n"
+"                        <b>posla</b>, i biće dostupan u\n"
+"                        <i class=\"fa fa-copy\"/><b> Datoteke</b>"
 
 #. module: report_async
 #: model:ir.model.fields,help:report_async.field_report_async__allow_async
@@ -330,6 +359,8 @@ msgid ""
 "This is not automatic field, please check if you want to allow this report "
 "in background process"
 msgstr ""
+"Ovo nije automatsko polje, molimo označite ako želite dozvoliti ovaj "
+"izvještaj u pozadinskom procesu"
 
 #. module: report_async
 #: model:mail.template,subject:report_async.async_report_delivery

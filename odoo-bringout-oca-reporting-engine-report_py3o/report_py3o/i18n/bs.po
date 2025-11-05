@@ -15,26 +15,26 @@ msgstr ""
 
 #. module: report_py3o
 #. odoo-python
-#: code:addons/report_py3o/models/ir_actions_report.py:0
+#: code:addons/report_py3o/models/ir_actions_report.py
 #, python-format
 msgid "(Native)"
 msgstr "(Nativno)"
 
+# taken from hr.po
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__create_uid
-#: model:ir.model.fields,field_description:report_py3o.field_py3o_template__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__create_date
-#: model:ir.model.fields,field_description:report_py3o.field_py3o_template__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__display_name
-#: model:ir.model.fields,field_description:report_py3o.field_py3o_template__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
@@ -45,7 +45,7 @@ msgstr "Rezerva"
 
 #. module: report_py3o
 #. odoo-python
-#: code:addons/report_py3o/models/ir_actions_report.py:0
+#: code:addons/report_py3o/models/ir_actions_report.py
 #, python-format
 msgid "Field 'Output Format' is required for Py3O report"
 msgstr "Polje 'Izlazni format' je obavezno za Py3O izvještaj"
@@ -62,7 +62,6 @@ msgstr "Grupiši po"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__id
-#: model:ir.model.fields,field_description:report_py3o.field_py3o_template__id
 msgid "ID"
 msgstr "ID"
 
@@ -72,6 +71,8 @@ msgid ""
 "If the user does not provide a template this will be used it should be a "
 "relative path to root of YOUR module or an absolute path on your server."
 msgstr ""
+"If the Korisnik does not provide a Šablon this will be used it should be a "
+"relative path to root of YOUR module or an absolute path on your server."
 
 #. module: report_py3o
 #: model:ir.model.fields,help:report_py3o.field_ir_actions_report__py3o_multi_in_one
@@ -81,9 +82,15 @@ msgid ""
 " option, Odoo will generate instead a single report for the selected "
 "records."
 msgstr ""
+"Ako pokrenete izvještaj nad više zapisa, Odoo će podrazumijevano generisati "
+"ZIP datoteku koja sadrži onoliko datoteka koliko je zapisa odabrano. Ako "
+"uključite ovu opciju, Odoo će umjesto toga generisati jedan zajednički "
+"izvještaj za odabrane zapise."
 
+# taken from hr.po
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__ir_actions_report_id
+#, fuzzy
 msgid "Ir Actions Report"
 msgstr "ir.actions.report.xml"
 
@@ -97,27 +104,26 @@ msgstr "Je Py3O nativni format"
 msgid "Is Py3O Report Not Available"
 msgstr "Py3O izvještaj nije dostupan"
 
+# taken from hr.po
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report____last_update
-#: model:ir.model.fields,field_description:report_py3o.field_py3o_template____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__write_uid
-#: model:ir.model.fields,field_description:report_py3o.field_py3o_template__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__write_date
-#: model:ir.model.fields,field_description:report_py3o.field_py3o_template__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__py3o_template_data
-#: model_terms:ir.ui.view,arch_db:report_py3o.py3o_report_view
 msgid "LibreOffice Template"
 msgstr "Template datoteka"
 
@@ -128,10 +134,12 @@ msgstr "Tip datoteke LibreOffice template-a"
 
 #. module: report_py3o
 #. odoo-python
-#: code:addons/report_py3o/models/py3o_report.py:0
+#: code:addons/report_py3o/models/py3o_report.py
 #, python-format
 msgid "Libreoffice runtime not available. Please contact your administrator."
-msgstr "Libreoffice runtime nije dostupan. Molimo kontaktirajte vašeg administratora."
+msgstr ""
+"Libreoffice runtime nije dostupan. Molimo kontaktirajte vašeg "
+"administratora."
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__module
@@ -148,6 +156,7 @@ msgstr "Poruka da Py3O izvještaj nije dostupan"
 msgid "Multiple Records in a Single Report"
 msgstr "Više zapisa u jednom izvještaju"
 
+# taken from hr.po
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__name
 msgid "Name"
@@ -155,7 +164,7 @@ msgstr "Ime"
 
 #. module: report_py3o
 #. odoo-python
-#: code:addons/report_py3o/models/py3o_report.py:0
+#: code:addons/report_py3o/models/py3o_report.py
 #, python-format
 msgid "No template found. Aborting."
 msgstr "Template nije pronađen. Prekidam."
@@ -212,7 +221,6 @@ msgstr "Py3o izvještaji"
 
 #. module: report_py3o
 #: model:ir.actions.act_window,name:report_py3o.py3o_template_configuration_action
-#: model:ir.ui.menu,name:report_py3o.py3o_template_configuration_menu
 msgid "Py3o Templates"
 msgstr "Py3o template-i"
 
@@ -221,8 +229,10 @@ msgstr "Py3o template-i"
 msgid "Py3o template"
 msgstr "Py3o template"
 
+# taken from hr.po
 #. module: report_py3o
 #: model:ir.model,name:report_py3o.model_ir_actions_report
+#, fuzzy
 msgid "Report Action"
 msgstr "Izvještaj"
 
@@ -231,8 +241,10 @@ msgstr "Izvještaj"
 msgid "Report Py30"
 msgstr "Izvještaj Py30"
 
+# taken from hr.po
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__report_type
+#, fuzzy
 msgid "Report Type"
 msgstr "Izvještaj"
 
@@ -248,7 +260,7 @@ msgstr "The implementer module that provides this Izvještaj"
 
 #. module: report_py3o
 #. odoo-python
-#: code:addons/report_py3o/models/ir_actions_report.py:0
+#: code:addons/report_py3o/models/ir_actions_report.py
 #, python-format
 msgid ""
 "The libreoffice runtime is required to genereate the py3o report '%s' but is"
@@ -257,6 +269,11 @@ msgid ""
 "you can provide the full path to the runtime by setting the key "
 "'py3o.conversion_command' into the configuration parameters."
 msgstr ""
+"Libreoffice runtime je potreban za generiranje py3o izvještaja '%s' ali nije"
+" pronađen u bin putanji. Morate instalirati libreoffice runtime na serveru. "
+"Ako je runtime već instaliran i nije pronađen od strane Odoo-a, možete "
+"pružiti punu putanju do runtime-a postavljanjem ključa "
+"'py3o.conversion_command' u konfiguracijskim parametrima."
 
 #. module: report_py3o
 #: model:ir.model.fields,help:report_py3o.field_ir_actions_report__report_type
@@ -266,6 +283,10 @@ msgid ""
 "browser PDF means the report will be rendered using Wkhtmltopdf and "
 "downloaded by the user."
 msgstr ""
+"Tip izvještaja koji će biti renderovan, svaki ima svoj metod renderiranja. "
+"HTML znači da će se izvještaj otvoriti direktno u vašem pregledniku, PDF "
+"znači da će se izvještaj renderovati koristeći Wkhtmltopdf i korisnik će ga "
+"preuzeti."
 
 #. module: report_py3o
 #: model:ir.actions.report,print_report_name:report_py3o.res_users_report_py3o

@@ -24,6 +24,8 @@ msgid ""
 "Add `<?xml encoding=\"...\" version=\"...\"?>` at the start of final report "
 "file."
 msgstr ""
+"Dodajte `<?xml encoding=\"...\" version=\"...\"?>` na početak finalne "
+"datoteke izvještaja."
 
 #. module: report_xml
 #: model:ir.actions.report,name:report_xml.demo_xml_report
@@ -36,6 +38,8 @@ msgid ""
 "Encoding for XML reports. If nothing is selected, then UTF-8 will be "
 "applied."
 msgstr ""
+"Kodiranje za XML izvještaje. Ako ništa nije odabrano, primijenit će se "
+"UTF-8."
 
 #. module: report_xml
 #: model:ir.model.fields,help:report_xml.field_ir_actions_report__xml_extension
@@ -48,6 +52,8 @@ msgid ""
 "File with XSD Schema for checking content of result report. Can be empty if "
 "validation is not required."
 msgstr ""
+"Datoteka sa XSD shemom za provjeru sadržaja rezultata izvještaja. Može biti "
+"prazna ako validacija nije potrebna."
 
 #. module: report_xml
 #: model:ir.model,name:report_xml.model_ir_actions_report
@@ -67,6 +73,10 @@ msgid ""
 "browser PDF means the report will be rendered using Wkhtmltopdf and "
 "downloaded by the user."
 msgstr ""
+"Tip izvještaja koji će biti renderovan, svaki ima svoj metod renderiranja. "
+"HTML znači da će se izvještaj otvoriti direktno u vašem pregledniku, PDF "
+"znači da će se izvještaj renderovati koristeći Wkhtmltopdf i korisnik će ga "
+"preuzeti."
 
 #. module: report_xml
 #: model:ir.model.fields.selection,name:report_xml.selection__ir_actions_report__xml_encoding__utf-8

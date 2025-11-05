@@ -21,6 +21,10 @@ msgid ""
 "{'widget': 'monetary'}\n"
 "{'widget': 'contact', 'fields': ['name', 'phone']}"
 msgstr ""
+"A string representation of a dictionary to specify field formatting options. Examples:\n"
+"{'widget': 'Datum'}\n"
+"{'widget': 'monetary'}\n"
+"{'widget': 'contact', 'fields': ['Naziv', 'phone']}"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__company_id
@@ -50,7 +54,7 @@ msgstr "Currency Field"
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__digits
 msgid "Digits"
-msgstr "Digits"
+msgstr "Znamenke"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__display_name
@@ -84,12 +88,14 @@ msgstr "ID"
 
 #. module: report_qweb_field_option
 #. odoo-python
-#: code:addons/report_qweb_field_option/models/qweb_field_options.py:0
+#: code:addons/report_qweb_field_option/models/qweb_field_options.py
 #, python-format
 msgid ""
 "Invalid string for the Options field: %(field_options)s.\n"
 "Error: %(error)s"
 msgstr ""
+"Invalid string for the Options field: %(field_options)s.\n"
+"Error: %(error)s"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options____last_update
@@ -108,7 +114,6 @@ msgstr "Zadnje ažurirano"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__res_model_id
-#: model_terms:ir.ui.view,arch_db:report_qweb_field_option.view_qweb_field_options_searh
 msgid "Model"
 msgstr "Model"
 
@@ -124,7 +129,7 @@ msgstr "Opcije"
 
 #. module: report_qweb_field_option
 #. odoo-python
-#: code:addons/report_qweb_field_option/models/qweb_field_options.py:0
+#: code:addons/report_qweb_field_option/models/qweb_field_options.py
 #, python-format
 msgid "Options must be a dictionary, but got %s"
 msgstr "Options Mora be a dictionary, but got %s"
@@ -136,8 +141,6 @@ msgstr "Qweb"
 
 #. module: report_qweb_field_option
 #: model:ir.actions.act_window,name:report_qweb_field_option.action_qweb_field_options_view
-#: model:ir.model,name:report_qweb_field_option.model_qweb_field_options
-#: model:ir.ui.menu,name:report_qweb_field_option.menu_qweb_field_options
 msgid "Qweb Field Options"
 msgstr "Qweb Field Options"
 

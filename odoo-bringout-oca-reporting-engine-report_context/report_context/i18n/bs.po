@@ -23,6 +23,8 @@ msgstr "Vrijednost konteksta"
 msgid ""
 "Context dictionary as Python expression, empty by default (Default: {})"
 msgstr ""
+"Riječnik (dictionary) konteksta kao Python izraz, početna vrijednost je "
+"prazno (Zadano: {})"
 
 #. module: report_context
 #: model:ir.model,name:report_context.model_ir_actions_report

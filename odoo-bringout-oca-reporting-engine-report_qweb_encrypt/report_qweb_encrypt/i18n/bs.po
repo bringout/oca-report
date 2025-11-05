@@ -19,6 +19,8 @@ msgid ""
 "* Manual Input Password: allow user to key in password on the fly. This option available only on document print action.\n"
 "* Auto Generated Password: system will auto encrypt password when PDF created, based on provided python syntax."
 msgstr ""
+"* Ručni unos lozinke: omogućava korisniku da unese lozinku u hodu. Ova opcija je dostupna samo prilikom štampe dokumenta.\n"
+"* Automatski generisana lozinka: sistem će automatski šifrovati lozinku kada se kreira PDF, na osnovu zadate Python sintakse."
 
 #. module: report_qweb_encrypt
 #: model:ir.model.fields.selection,name:report_qweb_encrypt.selection__ir_actions_report__encrypt__auto
@@ -27,7 +29,7 @@ msgstr "Auto Generated Password"
 
 #. module: report_qweb_encrypt
 #. odoo-javascript
-#: code:addons/report_qweb_encrypt/static/src/report/encrypt_dialog.xml:0
+#: code:addons/report_qweb_encrypt/static/src/report/encrypt_dialog.xml
 #, python-format
 msgid "Cancel"
 msgstr "Otkaži"
@@ -49,7 +51,7 @@ msgstr "Manual Input Password"
 
 #. module: report_qweb_encrypt
 #. odoo-javascript
-#: code:addons/report_qweb_encrypt/static/src/report/encrypt_dialog.xml:0
+#: code:addons/report_qweb_encrypt/static/src/report/encrypt_dialog.xml
 #, python-format
 msgid "Ok"
 msgstr "Uredu"
@@ -61,12 +63,14 @@ msgstr "Python Šifra syntax to gnerate password."
 
 #. module: report_qweb_encrypt
 #. odoo-python
-#: code:addons/report_qweb_encrypt/models/ir_actions_report.py:0
+#: code:addons/report_qweb_encrypt/models/ir_actions_report.py
 #, python-format
 msgid ""
 "Python code used for encryption password is invalid.\n"
 "%s"
 msgstr ""
+"Python Šifra used for encryption password is invalid.\n"
+"%s"
 
 #. module: report_qweb_encrypt
 #: model:ir.model,name:report_qweb_encrypt.model_ir_actions_report

@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model_terms:ir.ui.view,arch_db:report_qweb_signer.report_partner_demo_document
 msgid "<span>This is a sample report for testing PDF certificates.</span>"
@@ -23,6 +24,7 @@ msgstr "<span>Ovo je uzorak izvještaja za testiranje PDF certifikata.</span>"
 msgid "<strong>Partner:</strong>"
 msgstr "<strong>Partner:</strong>"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__allow_only_one
 msgid "Allow only one document"
@@ -43,26 +45,31 @@ msgstr "Putanja do datoteke certifikata"
 msgid "Certificates (PDF signing)"
 msgstr "Certifikati (PDF potpisivanje)"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model,name:report_qweb_signer.model_res_company
 msgid "Companies"
 msgstr "Poduzeća"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__company_id
 msgid "Company"
 msgstr "Kompanija"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__display_name
 msgid "Display Name"
@@ -94,6 +101,8 @@ msgid ""
 "Filename used to store signed document as attachment. Keep empty to not save"
 " signed document."
 msgstr ""
+"Naziv datoteke koji se koristi za spremanje potpisanog dokumenta kao prilog."
+" Ostavite prazno da ne biste spremili potpisani dokument."
 
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__id
@@ -106,22 +115,27 @@ msgid ""
 "If True, this certificate can not be useb to sign a PDF from several "
 "documents."
 msgstr ""
+"Ako je Tačno, ovaj certifikat se ne može koristiti za potpisivanje PDF-a iz "
+"više dokumenata."
 
 #. module: report_qweb_signer
 #: model:ir.model.fields.selection,name:report_qweb_signer.selection__report_certificate__signing_method__java
 msgid "Java"
 msgstr "Java"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__write_date
 msgid "Last Updated on"
@@ -142,6 +156,7 @@ msgstr "Model"
 msgid "Model where apply this certificate"
 msgstr "Model na koji se primjenjuje ovaj certifikat"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__name
 msgid "Name"
@@ -149,7 +164,6 @@ msgstr "Ime"
 
 #. module: report_qweb_signer
 #: model:ir.actions.act_window,name:report_qweb_signer.action_report_certificate
-#: model:ir.ui.menu,name:report_qweb_signer.menu_report_certificate
 msgid "PDF certificates"
 msgstr "PDF certifikati"
 
@@ -173,6 +187,7 @@ msgstr "Putanja do datoteke s lozinkom"
 msgid "Path to PKCS#12 certificate file"
 msgstr "Putanja do datoteke certifikata PKCS#12"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,help:report_qweb_signer.field_report_certificate__password_file
 msgid "Path to certificate password file"
@@ -183,13 +198,17 @@ msgstr "Putanja do datoteke za zaporkom certifikata"
 msgid "Reason text to include in digital signature."
 msgstr "Tekst razloga koji se uključuje u digitalni potpis."
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model,name:report_qweb_signer.model_ir_actions_report
+#, fuzzy
 msgid "Report Action"
 msgstr "Izvještaj"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model,name:report_qweb_signer.model_report_certificate
+#, fuzzy
 msgid "Report Certificate"
 msgstr "report.certificate"
 
@@ -199,7 +218,10 @@ msgid ""
 "Reports to sign for the selected model.No report selected means all reports "
 "are allowed."
 msgstr ""
+"Izvještaji za potpisivanje za odabrani model. Ako nijedan izvještaj nije "
+"odabran, svi izvještaji su dozvoljeni."
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__attachment
 msgid "Save as attachment"
@@ -207,13 +229,16 @@ msgstr "Spremi kao prilog"
 
 #. module: report_qweb_signer
 #. odoo-python
-#: code:addons/report_qweb_signer/models/ir_actions_report.py:0
+#: code:addons/report_qweb_signer/models/ir_actions_report.py
 #, python-format
 msgid ""
 "Saving signed report (PDF): You do not have enough access rights to save "
 "attachments"
 msgstr ""
+"Spremanje potpisanog izvještaja (PDF): Nemate dovoljno prava pristupa za "
+"spremanje priloga"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__sequence
 msgid "Sequence"
@@ -241,20 +266,25 @@ msgstr "Metoda potpisivanja"
 
 #. module: report_qweb_signer
 #. odoo-python
-#: code:addons/report_qweb_signer/models/ir_actions_report.py:0
+#: code:addons/report_qweb_signer/models/ir_actions_report.py
 #, python-format
 msgid "Signing report (PDF): Certificate or password file not found"
-msgstr "Potpisivanje izvještaja (PDF): Datoteka certifikata ili lozinke nije pronađena"
+msgstr ""
+"Potpisivanje izvještaja (PDF): Datoteka certifikata ili lozinke nije "
+"pronađena"
 
 #. module: report_qweb_signer
 #. odoo-python
-#: code:addons/report_qweb_signer/models/ir_actions_report.py:0
+#: code:addons/report_qweb_signer/models/ir_actions_report.py
 #, python-format
 msgid ""
 "Signing report (PDF): jPdfSign failed (error code: %(error_code)s). Message:"
 " %(message)s. Output: %(output)s"
 msgstr ""
+"Potpisivanje izvještaja (PDF): jPdfSign nije uspio (kod greške: "
+"%(error_code)s). Poruka: %(message)s. Izlaz: %(output)s"
 
+# taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.actions.report,name:report_qweb_signer.partner_demo_report
 msgid "Test PDF certificate"

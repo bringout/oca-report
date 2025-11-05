@@ -75,7 +75,6 @@ msgstr "Naziv modela"
 
 #. module: report_substitute
 #: model:ir.model,name:report_substitute.model_ir_actions_report
-#: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__action_report_id
 msgid "Report Action"
 msgstr "Akcija izvještaja"
 
@@ -111,13 +110,12 @@ msgstr "Akcija izvještaja o zamjeni"
 
 #. module: report_substitute
 #: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report__action_report_substitution_rule_ids
-#: model_terms:ir.ui.view,arch_db:report_substitute.ir_actions_report_form_view
 msgid "Substitution Rules"
 msgstr "Pravila zamjene"
 
 #. module: report_substitute
 #. odoo-python
-#: code:addons/report_substitute/models/ir_actions_report_substitution_rule.py:0
+#: code:addons/report_substitute/models/ir_actions_report_substitution_rule.py
 #, python-format
 msgid "Substitution infinite loop detected"
 msgstr "Otkrivena je beskonačna petlja supstitucije"

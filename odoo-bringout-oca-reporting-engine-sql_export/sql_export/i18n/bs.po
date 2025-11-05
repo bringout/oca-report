@@ -43,6 +43,7 @@ msgstr "Broj priloga"
 msgid "CSV"
 msgstr "CSV"
 
+# taken from hr.po
 #. module: sql_export
 #: model_terms:ir.ui.view,arch_db:sql_export.sql_file_wizard_view_form
 msgid "Cancel"
@@ -63,15 +64,15 @@ msgstr "Konfiguriši svojstva"
 msgid "Copy Options"
 msgstr "Opcije kopiranja"
 
+# taken from hr.po
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__create_uid
-#: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__create_date
-#: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -80,9 +81,9 @@ msgstr "Kreirano"
 msgid "Csv File"
 msgstr "CSV datoteka"
 
+# taken from hr.po
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__display_name
-#: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
@@ -93,10 +94,10 @@ msgstr "Kodna stranica:"
 
 #. module: sql_export
 #: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_tree
 msgid "Execute Query"
 msgstr "Izvršiti upit"
 
+# taken from hr.po
 #. module: sql_export
 #: model_terms:ir.ui.view,arch_db:sql_export.sql_file_wizard_view_form
 msgid "Export"
@@ -139,7 +140,6 @@ msgstr "Ima poruku"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__id
-#: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__id
 msgid "ID"
 msgstr "ID"
 
@@ -159,6 +159,8 @@ msgid ""
 "In case of use of properties in the query, use this syntax : %(Property String)s. <br/>\n"
 "                                Example : SELECT id FROM sale_order WHERE create_date &gt; %(Start Date)s"
 msgstr ""
+"U slučaju korištenja svojstava u upitu, koristite ovaj sintaks: %(Svojstvo String)s. <br/>\n"
+"                                Primjer: SELECT id FROM sale_order WHERE create_date &gt; %(Datum početka)s"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__message_is_follower
@@ -175,21 +177,21 @@ msgstr "Zadrži generisanu datoteku"
 msgid "Last Execution Date"
 msgstr "Datum poslednjeg izvršavanja"
 
+# taken from hr.po
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export____last_update
-#: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__write_uid
-#: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__write_date
-#: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -213,6 +215,7 @@ msgstr "Greška pri isporuci poruke"
 msgid "Messages"
 msgstr "Poruke"
 
+# taken from hr.po
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__name
 msgid "Name"
@@ -245,7 +248,7 @@ msgstr "Broj poruka sa greškama pri isporuci"
 
 #. module: sql_export
 #. odoo-python
-#: code:addons/sql_export/wizard/wizard_file.py:0
+#: code:addons/sql_export/wizard/wizard_file.py
 #, python-format
 msgid "Please enter a values for the following properties : %s"
 msgstr "Molimo unesite vrijednosti za sljedeća svojstva: %s"
@@ -277,10 +280,10 @@ msgstr "SQL izvoz"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__sql_export_id
-#: model:ir.ui.menu,name:sql_export.sql_export_menu_view
 msgid "Sql Export"
 msgstr "SQL izvoz"
 
+# taken from hr.po
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__state
 msgid "State"
@@ -293,6 +296,9 @@ msgid ""
 " * 'Draft': Not tested\n"
 " * 'SQL Valid': SQL Request has been checked and is valid"
 msgstr ""
+"Stanje zahtjeva:\n"
+" * 'Nacrt': Nije testirano\n"
+" * 'SQL valjan': SQL zahtjev je provjeren i valjan"
 
 #. module: sql_export
 #: model:ir.model.fields,help:sql_export.field_sql_export__has_group_changed
@@ -300,6 +306,8 @@ msgid ""
 "Technical fields, used in modules that depends on this one to know if groups"
 " has changed, and that according access should be updated."
 msgstr ""
+"Tehnička polja, koriste se u modulima koji zavise od ovog da znaju je li "
+"grupa promijenjena, i da li treba ažurirati odgovarajući pristup."
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__use_properties
@@ -312,6 +320,8 @@ msgid ""
 "You can't use the following words: DELETE, DROP, CREATE, INSERT, ALTER, "
 "TRUNCATE, EXECUTE, UPDATE."
 msgstr ""
+"Ne možete koristiti sljedeće riječi: DELETE, DROP, CREATE, INSERT, ALTER, "
+"TRUNCATE, EXECUTE, UPDATE."
 
 #. module: sql_export
 #: model:ir.model.fields.selection,name:sql_export.selection__sql_export__encoding__big5
@@ -338,6 +348,7 @@ msgstr "latin1"
 msgid "latin2"
 msgstr "latin2"
 
+# taken from hr.po
 #. module: sql_export
 #: model_terms:ir.ui.view,arch_db:sql_export.sql_file_wizard_view_form
 msgid "or"

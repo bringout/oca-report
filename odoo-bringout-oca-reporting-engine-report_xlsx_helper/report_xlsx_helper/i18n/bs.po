@@ -15,23 +15,25 @@ msgstr ""
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
 #, python-format
 msgid ""
 "%(__name__)s, _write_line : programming error detected while processing "
 "col_specs_section %(col_specs_section)s, column %(col)s"
 msgstr ""
+"%(__name__)s, _write_line : otkrivena programerska greška prilikom obrade "
+"col_specs_section %(col_specs_section)s, kolona %(col)s"
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/models/ir_actions_report.py:0
+#: code:addons/report_xlsx_helper/models/ir_actions_report.py
 #, python-format
 msgid "%s model was not found"
 msgstr "%s model nije pronađen"
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
 #, python-format
 msgid ", cellvalue %s"
 msgstr ", vrijednost ćelije %s"
@@ -43,53 +45,68 @@ msgstr "Apstraktni XLSX izvještaj"
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
 #, python-format
 msgid ""
 "Programming Error:\n"
 "\n"
 "Excel Sheet name '%(name)s' contains unsupported special characters: '%(special_chars)s'."
 msgstr ""
+"Programerska greška:\n"
+"\n"
+"Naziv Excel radnog lista '%(name)s' sadrži nepodržane specijalne znakove: '%(special_chars)s'."
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
 #, python-format
 msgid ""
 "Programming Error:\n"
 "\n"
 "Excel Sheet name '%(name)s' should not exceed %(max_chars)s characters."
 msgstr ""
+"Programerska greška:\n"
+"\n"
+"Naziv Excel radnog lista '%(name)s' ne smije prelaziti %(max_chars)s znakova."
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
 #, python-format
 msgid ""
 "Programming Error:\n"
 "\n"
 "The '%s' column is not defined in the worksheet column specifications."
 msgstr ""
+"Programerska greška:\n"
+"\n"
+"Kolona '%s' nije definirana u specifikacijama kolona radnog lista."
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
 #, python-format
 msgid ""
 "Programming Error:\n"
 "\n"
 "The '%s' column is not defined the worksheet column specifications."
 msgstr ""
+"Programerska greška:\n"
+"\n"
+"Kolona '%s' nije definirana u specifikacijama kolona radnog lista."
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
 #, python-format
 msgid ""
 "Programming Error:\n"
 "\n"
 "The 'title' parameter is mandatory when calling the '_write_ws_title' method."
 msgstr ""
+"Programerska greška:\n"
+"\n"
+"Parametar 'title' je obavezan prilikom pozivanja metode '_write_ws_title'."
 
 #. module: report_xlsx_helper
 #: model:ir.model,name:report_xlsx_helper.model_ir_actions_report

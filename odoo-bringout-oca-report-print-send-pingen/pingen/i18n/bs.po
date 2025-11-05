@@ -30,7 +30,6 @@ msgstr "Prikačeno na"
 
 #. module: pingen
 #: model:ir.model,name:pingen.model_ir_attachment
-#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
 msgid "Attachment"
 msgstr "Prilog"
 
@@ -46,7 +45,6 @@ msgstr "Automatsko slanje"
 
 #. module: pingen
 #: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__canceled
-#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_search
 msgid "Canceled"
 msgstr "Otkazano"
 
@@ -82,21 +80,24 @@ msgstr "Greška konekcije"
 
 #. module: pingen
 #. odoo-python
-#: code:addons/pingen/models/pingen_document.py:0
+#: code:addons/pingen/models/pingen_document.py
 #, python-format
 msgid "Connection Error when asking for sending the document %s to Pingen"
-msgstr "Uvek kodiraj brojeve telefona koristeći međunarodni format. Inače brojevi koji potiču iz zemlje kompanije su nacionalno formatirani. Međunarodni brojevi uvek koriste međunarodni format."
+msgstr ""
+"Uvek kodiraj brojeve telefona koristeći međunarodni format. Inače brojevi "
+"koji potiču iz zemlje kompanije su nacionalno formatirani. Međunarodni "
+"brojevi uvek koriste međunarodni format."
 
 #. module: pingen
 #. odoo-python
-#: code:addons/pingen/models/pingen_document.py:0
+#: code:addons/pingen/models/pingen_document.py
 #, python-format
 msgid "Connection Error when pushing document %s to Pingen"
 msgstr "Greška konekcije prilikom slanja dokumenta %s na Pingen"
 
 #. module: pingen
 #. odoo-python
-#: code:addons/pingen/models/pingen_document.py:0
+#: code:addons/pingen/models/pingen_document.py
 #, python-format
 msgid "Connection Error when updating the status of Document %s from Pingen"
 msgstr "Greška konekcije prilikom ažuriranja statusa dokumenta %s sa Pingen"
@@ -188,34 +189,40 @@ msgstr "Poruka greške"
 
 #. module: pingen
 #. odoo-python
-#: code:addons/pingen/models/pingen_document.py:0
+#: code:addons/pingen/models/pingen_document.py
 #, python-format
 msgid ""
 "Error when asking Pingen to send the document %(name): \n"
 "%(exc)"
 msgstr ""
+"Greška prilikom zahtjeva od Pingen da pošalje dokument %(name): \n"
+"%(exc)"
 
 #. module: pingen
 #. odoo-python
-#: code:addons/pingen/models/pingen_document.py:0
+#: code:addons/pingen/models/pingen_document.py
 #, python-format
 msgid ""
 "Error when pushing the document %(name) to Pingen:\n"
 "%(exc)"
 msgstr ""
+"Greška prilikom slanja dokumenta %(name) na Pingen:\n"
+"%(exc)"
 
 #. module: pingen
 #. odoo-python
-#: code:addons/pingen/models/pingen_document.py:0
+#: code:addons/pingen/models/pingen_document.py
 #, python-format
 msgid ""
 "Error when updating the status of Document %(name) from Pingen: \n"
 "%(exc)"
 msgstr ""
+"Greška prilikom ažuriranja statusa dokumenta %(name) sa Pingen: \n"
+"%(exc)"
 
 #. module: pingen
 #. odoo-python
-#: code:addons/pingen/models/ir_attachment.py:0
+#: code:addons/pingen/models/ir_attachment.py
 #, python-format
 msgid "Error. The attachment %s is already pushed to pingen.com."
 msgstr "Greška. Prilog %s je već poslan na pingen.com."
@@ -272,7 +279,6 @@ msgstr "Širina slike"
 
 #. module: pingen
 #: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__sendcenter
-#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_search
 msgid "In Sendcenter"
 msgstr "U centru za slanje"
 
@@ -338,7 +344,6 @@ msgstr "Parsirana adresa"
 
 #. module: pingen
 #: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__pending
-#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_search
 msgid "Pending"
 msgstr "Na čekanju"
 
@@ -369,21 +374,16 @@ msgstr "Pingen Clientid"
 
 #. module: pingen
 #: model:ir.actions.act_window,name:pingen.act_attachment_to_pingen_document
-#: model:ir.model.fields,field_description:pingen.field_ir_attachment__pingen_document_ids
-#: model:ir.model.fields,field_description:pingen.field_pingen_document__pingen_document_ids
-#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_form
 msgid "Pingen Document"
 msgstr "Pingen dokument"
 
 #. module: pingen
 #: model:ir.actions.act_window,name:pingen.action_pingen_document
-#: model:ir.ui.menu,name:pingen.menu_pingen_document
 msgid "Pingen Documents"
 msgstr "Pingen dokumenti"
 
 #. module: pingen
 #: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__pingen_error
-#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_search
 msgid "Pingen Error"
 msgstr "Pingen greška"
 
@@ -399,7 +399,6 @@ msgstr "Pingen Ssl provjera"
 
 #. module: pingen
 #: model:ir.model.fields,field_description:pingen.field_res_company__pingen_staging
-#: model:ir.model.fields,field_description:pingen.field_res_config_settings__pingen_staging
 msgid "Pingen Staging"
 msgstr "Pingen testno okruženje"
 
@@ -465,7 +464,6 @@ msgstr "Pošalji na pingen.com"
 
 #. module: pingen
 #: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__pushed
-#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_search
 msgid "Pushed"
 msgstr "Poslano"
 
@@ -491,19 +489,16 @@ msgstr "Naziv resursa"
 
 #. module: pingen
 #: model:ir.actions.server,name:pingen.ir_cron_push_pingen_ir_actions_server
-#: model:ir.cron,cron_name:pingen.ir_cron_push_pingen
 msgid "Run Pingen Document Push"
 msgstr "Pokreni slanje Pingen dokumenta"
 
 #. module: pingen
 #: model:ir.actions.server,name:pingen.ir_cron_update_pingen_ir_actions_server
-#: model:ir.cron,cron_name:pingen.ir_cron_update_pingen
 msgid "Run Pingen Document Update"
 msgstr "Pokreni ažuriranje Pingen dokumenta"
 
 #. module: pingen
 #: model:ir.model.fields,field_description:pingen.field_ir_attachment__send_to_pingen
-#: model:ir.model.fields,field_description:pingen.field_pingen_document__send_to_pingen
 msgid "Send to Pingen.com"
 msgstr "Pošalji na Pingen.com"
 
@@ -514,7 +509,6 @@ msgstr "Centar za slanje"
 
 #. module: pingen
 #: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__sent
-#: model_terms:ir.ui.view,arch_db:pingen.view_pingen_document_search
 msgid "Sent"
 msgstr "Poslano"
 
@@ -535,7 +529,7 @@ msgstr "Pohranjeni naziv datoteke"
 
 #. module: pingen
 #. odoo-python
-#: code:addons/pingen/models/ir_attachment.py:0
+#: code:addons/pingen/models/ir_attachment.py
 #, python-format
 msgid "The type of attachment %s is not handled"
 msgstr "Tip priloga %s se ne obrađuje"
@@ -552,17 +546,18 @@ msgstr "Nedostavljivo"
 
 #. module: pingen
 #. odoo-python
-#: code:addons/pingen/models/pingen_document.py:0
+#: code:addons/pingen/models/pingen_document.py
 #, python-format
 msgid ""
 "Unexpected Error when pushing the document %(name) to Pingen:\n"
 "%(exc)"
 msgstr ""
+"Neočekivana greška prilikom slanja dokumenta %(name) na Pingen:\n"
+"%(exc)"
 
 #. module: pingen
 #. odoo-python
-#: code:addons/pingen/models/pingen_document.py:0
-#: code:addons/pingen/models/pingen_document.py:0
+#: code:addons/pingen/models/pingen_document.py
 #, python-format
 msgid "Unexpected Error when updating the status of Document %s"
 msgstr "Neočekivana greška prilikom ažuriranja statusa dokumenta %s"
@@ -575,7 +570,7 @@ msgstr "Ažuriraj informacije pisma"
 #. module: pingen
 #: model:ir.model.fields,field_description:pingen.field_pingen_document__url
 msgid "Url"
-msgstr "Url"
+msgstr "URL"
 
 #. module: pingen
 #: model:ir.model.fields,help:pingen.field_pingen_document__type
@@ -583,6 +578,8 @@ msgid ""
 "You can either upload a file from your computer or copy/paste an internet "
 "link to your file."
 msgstr ""
+"Možete ili učitati datoteku sa vašeg računara ili kopirati/zalijepiti "
+"internet link ka vašoj datoteci."
 
 #. module: pingen
 #: model:ir.model.fields.selection,name:pingen.selection__pingen_document__delivery_product__atpost_economy

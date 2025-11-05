@@ -45,7 +45,7 @@ msgstr "75 DPI"
 
 #. module: report_py3o_fusion_server
 #. odoo-python
-#: code:addons/report_py3o_fusion_server/models/ir_actions_report.py:0
+#: code:addons/report_py3o_fusion_server/models/ir_actions_report.py
 #, python-format
 msgid ""
 "A fusion server or a libreoffice runtime are required to genereate the py3o "
@@ -53,6 +53,10 @@ msgid ""
 " by Odoo, you can provide the full path to the runtime by setting the key "
 "'py3o.conversion_command' into the configuration parameters."
 msgstr ""
+"Za generisanje py3o izvještaja '%s' potreban je Fusion server ili "
+"LibreOffice runtime. Ako je LibreOffice runtime već instaliran, a Odoo ga ne"
+" pronalazi, možete navesti punu putanju do runtime-a postavljanjem ključa "
+"'py3o.conversion_command' u parametrima konfiguracije."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__is_active
@@ -119,33 +123,32 @@ msgstr "Continuous Facing"
 msgid "Convert Document References to PDF Targets"
 msgstr "Convert Document References to PDF Targets"
 
+# taken from hr.po
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__pdf_form
+#, fuzzy
 msgid "Create PDF Form"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__create_uid
-#: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__create_date
-#: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__cross_doc_link_action
-#: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "Cross-document Links"
 msgstr "Cross-document Links"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__cross_doc_link_action__0
-#: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__magnification__0
-#: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__page_layout__0
 msgid "Default"
 msgstr "Zadano"
 
@@ -164,9 +167,9 @@ msgstr "Onemogući"
 msgid "Display Document Title"
 msgstr "Prikaži Document Title"
 
+# taken from hr.po
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__display_name
-#: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
@@ -257,7 +260,7 @@ msgstr "Fusion Server"
 
 #. module: report_py3o_fusion_server
 #. odoo-python
-#: code:addons/report_py3o_fusion_server/models/py3o_report.py:0
+#: code:addons/report_py3o_fusion_server/models/py3o_report.py
 #, python-format
 msgid "Fusion server error %s"
 msgstr "Fusion server error %s"
@@ -299,7 +302,6 @@ msgstr "High Resolution"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__id
-#: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__id
 msgid "ID"
 msgstr "ID"
 
@@ -309,6 +311,8 @@ msgid ""
 "If you enable this option, you will not be able to password-protect the "
 "document or apply other security settings."
 msgstr ""
+"If you enable this option, you will not be able to password-protect the "
+"document or apply other security Postavke."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_server__url
@@ -316,6 +320,8 @@ msgid ""
 "If your Py3o Fusion server is on the same machine and runs on the default "
 "port, the URL is http://localhost:8765/form"
 msgstr ""
+"If your Py3o Fusion server is on the Isti machine and runs on the default "
+"port, the URL is http://localhost:8765/form"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
@@ -352,21 +358,21 @@ msgstr "Inserting, Deleting and Rotating Pages"
 msgid "JPEG Compression"
 msgstr "JPEG Compression"
 
+# taken from hr.po
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options____last_update
-#: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__write_uid
-#: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__write_date
-#: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -392,7 +398,6 @@ msgstr "Low Resolution (150 dpi)"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__magnification
-#: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "Magnification"
 msgstr "Magnification"
 
@@ -407,10 +412,11 @@ msgid ""
 "Native formats will be processed without a server. You must use this mode if"
 " you call methods on your model into the template."
 msgstr ""
+"Native formats will be Obrađeno without a server. You Mora use this mode if "
+"you call methods on your model into the Šablon."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__changes__0
-#: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__printing__0
 msgid "Not Permitted"
 msgstr "Not Permitted"
 
@@ -436,7 +442,6 @@ msgstr "PDF"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_ir_actions_report__pdf_options_id
-#: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__pdf_options_id
 msgid "PDF Options"
 msgstr "PDF Options"
 
@@ -446,6 +451,8 @@ msgid ""
 "PDF options can be set per Py3o Server but also per report. If both are "
 "defined, the options on the report are used."
 msgstr ""
+"PDF options can be set per Py3o Server but also per Izvještaj. If both are "
+"defined, the options on the Izvještaj are used."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_ir_actions_report__pdf_options_id
@@ -453,6 +460,8 @@ msgid ""
 "PDF options can be set per report, but also per Py3o Server. If both are "
 "defined, the options on the report are used."
 msgstr ""
+"PDF options can be set per Izvještaj, but also per Py3o Server. If both are "
+"defined, the options on the Izvještaj are used."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__page_layout
@@ -466,14 +475,13 @@ msgstr "Page Only"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__initial_view
-#: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "Panes"
-msgstr "Panes"
+msgstr "Paneli"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__permission_password
 msgid "Permission Password"
-msgstr "Permission Password"
+msgstr "Lozinka za dozvolu"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_pdf_options__zoom
@@ -492,13 +500,11 @@ msgstr "Py3o Fusion Server URL"
 
 #. module: report_py3o_fusion_server
 #: model:ir.actions.act_window,name:report_py3o_fusion_server.py3o_pdf_options_action
-#: model:ir.ui.menu,name:report_py3o_fusion_server.py3o_pdf_options_menu
 msgid "Py3o PDF Export Options"
 msgstr "Py3o PDF Export Options"
 
 #. module: report_py3o_fusion_server
 #: model:ir.actions.act_window,name:report_py3o_fusion_server.py3o_server_configuration_action
-#: model:ir.ui.menu,name:report_py3o_fusion_server.py3o_server_configuration_menu
 msgid "Py3o Servers"
 msgstr "Py3o Servers"
 
@@ -559,29 +565,35 @@ msgstr "Tagged PDF (add document structure)"
 
 #. module: report_py3o_fusion_server
 #. odoo-python
-#: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py:0
+#: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py
 #, python-format
 msgid ""
 "The PDF/A option is not compatible with 'Cross-document Links' = 'Open with "
 "PDF Reader Application'."
 msgstr ""
+"The PDF/A option is not compatible with 'Cross-document Links' = 'Otvoreno "
+"with PDF Reader Application'."
 
 #. module: report_py3o_fusion_server
 #. odoo-python
-#: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py:0
+#: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py
 #, python-format
 msgid ""
 "The initial page parameter must be strictly positive (current value: %d)"
 msgstr ""
+"The initial page parameter Mora be strictly positive (current Vrijednost: "
+"%d)"
 
 #. module: report_py3o_fusion_server
 #. odoo-python
-#: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py:0
+#: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py
 #, python-format
 msgid ""
 "The parameter Image JPEG Quality must be between 1 %% and 100 %% (current "
 "value: %s %%)"
 msgstr ""
+"The parameter Image JPEG Kvalitet Mora be between 1 %% and 100 %% (current "
+"Vrijednost: %s %%)"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
@@ -589,14 +601,18 @@ msgid ""
 "The security settings are incompatible with the <b>PDF/A-1a</b> option in "
 "the <em>General</em> tab."
 msgstr ""
+"The security Postavke are incompatible with the <b>PDF/A-1a</b> option in "
+"the <em>General</em> tab."
 
 #. module: report_py3o_fusion_server
 #. odoo-python
-#: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py:0
+#: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py
 #, python-format
 msgid ""
 "The value of the zoom factor must be between 50 and 1600 (current value: %d)"
 msgstr ""
+"The Vrijednost of the zoom factor Mora be between 50 and 1600 (current "
+"Vrijednost: %d)"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__initial_view__2
@@ -640,12 +656,14 @@ msgstr "XML"
 
 #. module: report_py3o_fusion_server
 #. odoo-python
-#: code:addons/report_py3o_fusion_server/models/ir_actions_report.py:0
+#: code:addons/report_py3o_fusion_server/models/ir_actions_report.py
 #, python-format
 msgid ""
 "You can not use remote fusion without Fusion server. Please specify a Fusion"
 " Server"
 msgstr ""
+"You can not use remote fusion without Fusion server. Please specify a Fusion"
+" Server"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__magnification__4

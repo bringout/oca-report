@@ -36,7 +36,7 @@ msgstr "Kreirano"
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Prikaži naziv"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_template_fallback
@@ -58,7 +58,7 @@ msgstr "Tip datoteke"
 #. module: report_py3o
 #: model_terms:ir.ui.view,arch_db:report_py3o.py3o_template_configuration_search_view
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__id
@@ -108,19 +108,19 @@ msgstr "Py3O izvještaj nije dostupan"
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 # taken from hr.po
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__py3o_template_data

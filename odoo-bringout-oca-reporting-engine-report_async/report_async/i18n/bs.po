@@ -128,7 +128,7 @@ msgstr "Dokument"
 #. module: report_async
 #: model:ir.model.fields.selection,name:report_async.selection__report_async__job_status__done
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Gotovo"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_report_async__email_notify
@@ -193,7 +193,7 @@ msgstr "Zadaci"
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: report_async
 #: model_terms:ir.ui.view,arch_db:report_async.view_report_async_form
@@ -203,12 +203,12 @@ msgstr "Greška zadnjeg pokrenutog posla"
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: report_async
 #: model:ir.model.fields,help:report_async.field_report_async__job_info

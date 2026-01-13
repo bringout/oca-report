@@ -56,17 +56,17 @@ msgstr "ID"
 #. module: report_substitute
 #: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: report_substitute
 #: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: report_substitute
 #: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: report_substitute
 #: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__model

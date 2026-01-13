@@ -146,17 +146,17 @@ msgstr "Konfiguracija formata papira labele"
 #. module: report_label
 #: model:ir.model.fields,field_description:report_label.field_report_label_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: report_label
 #: model:ir.model.fields,field_description:report_label.field_report_label_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: report_label
 #: model:ir.model.fields,field_description:report_label.field_report_label_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: report_label
 #: model_terms:ir.ui.view,arch_db:report_label.view_paperformat_label_view_form

@@ -16,7 +16,7 @@ msgstr ""
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna akcija"
+msgstr "Potrebna radnja"
 
 #. module: sql_export
 #: model:ir.model,name:sql_export.model_sql_file_wizard
@@ -85,7 +85,7 @@ msgstr "CSV datoteka"
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Prikazani naziv"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__encoding
@@ -121,12 +121,12 @@ msgstr "Ime fajla"
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__message_follower_ids
 msgid "Followers"
-msgstr "Pratioci"
+msgstr "Pratitelji"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr "Pratitelji (partneri)"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__has_group_changed
@@ -181,19 +181,19 @@ msgstr "Datum poslednjeg izvršavanja"
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 # taken from hr.po
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 # taken from hr.po
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__last_execution_uid
@@ -213,7 +213,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__message_ids
 msgid "Messages"
-msgstr "Poruke"
+msgstr "Nepročitane poruke"
 
 # taken from hr.po
 #. module: sql_export

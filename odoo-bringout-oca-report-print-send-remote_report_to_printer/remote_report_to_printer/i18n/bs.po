@@ -46,17 +46,17 @@ msgstr "Je zadani"
 #. module: remote_report_to_printer
 #: model:ir.model.fields,field_description:remote_report_to_printer.field_res_remote_printer____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: remote_report_to_printer
 #: model:ir.model.fields,field_description:remote_report_to_printer.field_res_remote_printer__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: remote_report_to_printer
 #: model:ir.model.fields,field_description:remote_report_to_printer.field_res_remote_printer__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: remote_report_to_printer
 #. odoo-python

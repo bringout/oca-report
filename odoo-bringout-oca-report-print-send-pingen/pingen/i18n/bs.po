@@ -83,10 +83,7 @@ msgstr "Greška konekcije"
 #: code:addons/pingen/models/pingen_document.py
 #, python-format
 msgid "Connection Error when asking for sending the document %s to Pingen"
-msgstr ""
-"Uvek kodiraj brojeve telefona koristeći međunarodni format. Inače brojevi "
-"koji potiču iz zemlje kompanije su nacionalno formatirani. Međunarodni "
-"brojevi uvek koriste međunarodni format."
+msgstr "Connection Error when asking for sending the document %s to Pingen"
 
 #. module: pingen
 #. odoo-python

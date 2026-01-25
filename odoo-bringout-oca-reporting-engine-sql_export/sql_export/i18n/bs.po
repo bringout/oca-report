@@ -159,8 +159,8 @@ msgid ""
 "In case of use of properties in the query, use this syntax : %(Property String)s. <br/>\n"
 "                                Example : SELECT id FROM sale_order WHERE create_date &gt; %(Start Date)s"
 msgstr ""
-"U slučaju korištenja svojstava u upitu, koristite ovaj sintaks: %(Svojstvo String)s. <br/>\n"
-"                                Primjer: SELECT id FROM sale_order WHERE create_date &gt; %(Datum početka)s"
+"In case of use of properties in the query, use this syntax : %(Property String)s. <br/>\n"
+"                                Example : SELECT id FROM sale_order WHERE create_date &gt; %(Start Date)s"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__message_is_follower

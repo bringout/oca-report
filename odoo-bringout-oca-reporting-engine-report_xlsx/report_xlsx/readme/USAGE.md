@@ -1,6 +1,7 @@
-An example of XLSX report for partners on a module called `module_name`:
+An example of XLSX report for partners on a module called
+\`module_name\`:
 
-A python class ::
+A python class :
 
     from odoo import models
 
@@ -16,10 +17,10 @@ A python class ::
                 bold = workbook.add_format({'bold': True})
                 sheet.write(0, 0, obj.name, bold)
 
-To manipulate the ``workbook`` and ``sheet`` objects, refer to the
-`documentation <http://xlsxwriter.readthedocs.org/>`_ of ``xlsxwriter``.
+To manipulate the `workbook` and `sheet` objects, refer to the
+[documentation](http://xlsxwriter.readthedocs.org/) of `xlsxwriter`.
 
-A report XML record ::
+A report XML record :
 
     <record id="action_report_partner_xlsx" model="ir.actions.report">
         <field name="name">Print to XLSX</field>

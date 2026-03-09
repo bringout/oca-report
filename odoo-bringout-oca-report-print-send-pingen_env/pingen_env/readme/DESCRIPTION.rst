@@ -1,1 +1,0 @@
-Helps to manage Pingen settings via server environment variables.

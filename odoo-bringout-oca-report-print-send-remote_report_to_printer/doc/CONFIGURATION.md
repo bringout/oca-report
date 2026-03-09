@@ -1,3 +1,0 @@
-# Configuration
-
-Refer to Odoo settings for remote_report_to_printer. Configure related models, access rights, and options as needed.

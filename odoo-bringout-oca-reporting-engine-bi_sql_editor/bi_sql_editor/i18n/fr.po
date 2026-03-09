@@ -19,21 +19,18 @@ msgstr ""
 #. module: bi_sql_editor
 #. odoo-python
 #: code:addons/bi_sql_editor/models/bi_sql_view.py:0
-#, python-format
 msgid "%(model_name)s Access %(full_name)s"
 msgstr ""
 
 #. module: bi_sql_editor
 #. odoo-python
 #: code:addons/bi_sql_editor/models/bi_sql_view.py:0
-#, python-format
 msgid "%s (Copy)"
 msgstr "%s (Copie)"
 
 #. module: bi_sql_editor
 #. odoo-python
 #: code:addons/bi_sql_editor/models/bi_sql_view.py:0
-#, python-format
 msgid "Access %s"
 msgstr "Accès %s"
 
@@ -126,9 +123,7 @@ msgstr "Colonne"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__view_order
-msgid ""
-"Comma-separated text. Possible values: \"graph\", \"pivot\", \"tree\" or "
-"\"form\""
+msgid "Comma-separated text. Possible values: \"graph\", \"pivot\" or \"list\""
 msgstr ""
 
 #. module: bi_sql_editor
@@ -199,15 +194,15 @@ msgid ""
 "Define here access restriction to data.\n"
 " Take care to use field name prefixed by 'x_'. A global 'ir.rule' will be "
 "created. A typical Multi Company rule is for exemple \n"
-" ['|', ('x_company_id','child_of', [user.company_id.id]),('x_company_id','=',"
-"False)]."
+" ['|', ('x_company_id','child_of', [user.company_id.id]),"
+"('x_company_id','=',False)]."
 msgstr ""
 "Définir ici les règles de restrictions d'accès aux données.\n"
-" Faite attention à utilliser des noms de champs préfixés par 'x_'. Un 'ir."
-"rule' global sera créé. Une règle classique en multi-companie est, par "
+" Faite attention à utilliser des noms de champs préfixés par 'x_'. Un "
+"'ir.rule' global sera créé. Une règle classique en multi-companie est, par "
 "exemple : \n"
-" ['|', ('x_company_id','child_of', [user.company_id.id]),('x_company_id','=',"
-"False)]."
+" ['|', ('x_company_id','child_of', [user.company_id.id]),"
+"('x_company_id','=',False)]."
 
 #. module: bi_sql_editor
 #: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
@@ -222,6 +217,7 @@ msgstr ""
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__display_name
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__display_name
+#: model:ir.model.fields,field_description:bi_sql_editor.field_ir_model_fields__display_name
 msgid "Display Name"
 msgstr "Nom à afficher"
 
@@ -319,6 +315,7 @@ msgstr ""
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__id
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__id
+#: model:ir.model.fields,field_description:bi_sql_editor.field_ir_model_fields__id
 msgid "ID"
 msgstr ""
 
@@ -333,9 +330,15 @@ msgid "If checked, some messages have a delivery error."
 msgstr ""
 
 #. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__use_external_database
+msgid ""
+"If filled, the query will be executed against an external database, "
+"configured in Odoo main configuration file. "
+msgstr ""
+
+#. module: bi_sql_editor
 #. odoo-python
 #: code:addons/bi_sql_editor/models/bi_sql_view_field.py:0
-#, python-format
 msgid ""
 "Impossible to delete fields if the view is in the state 'Model Valid' or 'UI "
 "Valid'."
@@ -379,12 +382,6 @@ msgid ""
 msgstr ""
 
 #. module: bi_sql_editor
-#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view____last_update
-#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field____last_update
-msgid "Last Modified on"
-msgstr "Dernière modification le"
-
-#. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__write_uid
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__write_uid
 msgid "Last Updated by"
@@ -395,11 +392,6 @@ msgstr "Dernière mise à jour par"
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__write_date
 msgid "Last Updated on"
 msgstr "Dernière mise à jour le"
-
-#. module: bi_sql_editor
-#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__message_main_attachment_id
-msgid "Main Attachment"
-msgstr ""
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__materialized_text
@@ -433,6 +425,7 @@ msgstr ""
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__many2one_model_id
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
 msgid "Model"
 msgstr "Modèle"
 
@@ -450,7 +443,6 @@ msgstr "Nom"
 #. module: bi_sql_editor
 #. odoo-python
 #: code:addons/bi_sql_editor/models/bi_sql_view.py:0
-#, python-format
 msgid ""
 "No Column was found.\n"
 "Columns name should be prefixed by 'x_'."
@@ -494,14 +486,14 @@ msgid "Odoo Cron"
 msgstr "Cron Odoo"
 
 #. module: bi_sql_editor
-#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__form_view_id
-msgid "Odoo Form View"
-msgstr ""
-
-#. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__graph_view_id
 msgid "Odoo Graph View"
 msgstr "Vue graphique Odoo"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__tree_view_id
+msgid "Odoo List View"
+msgstr ""
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__menu_id
@@ -529,15 +521,9 @@ msgid "Odoo Search View"
 msgstr "Vue de recherche Odoo"
 
 #. module: bi_sql_editor
-#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__tree_view_id
-msgid "Odoo Tree View"
-msgstr "Vue Liste Odoo"
-
-#. module: bi_sql_editor
 #. odoo-python
 #: code:addons/bi_sql_editor/models/bi_sql_view.py:0
-#, python-format
-msgid "Only graph, pivot, tree or form views are supported"
+msgid "Only graph, pivot or list views are supported"
 msgstr ""
 
 #. module: bi_sql_editor
@@ -563,7 +549,6 @@ msgstr ""
 #. module: bi_sql_editor
 #. odoo-python
 #: code:addons/bi_sql_editor/models/bi_sql_view.py:0
-#, python-format
 msgid "Please set related models on the following fields %s"
 msgstr ""
 
@@ -585,7 +570,6 @@ msgstr "Rafraichir la vue matérialisée"
 #. module: bi_sql_editor
 #. odoo-python
 #: code:addons/bi_sql_editor/models/bi_sql_view.py:0
-#, python-format
 msgid "Refresh Materialized View %s"
 msgstr "Rafraichir la vue matérialisée %s"
 
@@ -602,7 +586,6 @@ msgstr "Définition de règle"
 #. module: bi_sql_editor
 #. odoo-python
 #: code:addons/bi_sql_editor/models/bi_sql_view.py:0
-#, python-format
 msgid ""
 "SQL Error while creating %(materialized_text)s VIEW %(view_name)s :\n"
 " %(error)s"
@@ -708,11 +691,6 @@ msgid "Sum"
 msgstr "Somme"
 
 #. module: bi_sql_editor
-#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
-msgid "Technical Details"
-msgstr ""
-
-#. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__technical_name
 msgid "Technical Name"
 msgstr "Nom technique"
@@ -767,6 +745,11 @@ msgid "UI Instances"
 msgstr ""
 
 #. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "UI Parameters"
+msgstr ""
+
+#. module: bi_sql_editor
 #: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__tree_visibility__unavailable
 msgid "Unavailable"
 msgstr "Indisponible"
@@ -786,6 +769,16 @@ msgstr ""
 "après avoir créer le modèle"
 
 #. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__use_external_database
+msgid "Use External Database"
+msgstr ""
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "User Interface"
+msgstr "Interface utilisateur"
+
+#. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__view_name
 msgid "View Name"
 msgstr "Nom de la vue"
@@ -801,23 +794,29 @@ msgid "Views, Action and Menu Created"
 msgstr "Vues, Actions et menus créés"
 
 #. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: bi_sql_editor
 #. odoo-python
 #: code:addons/bi_sql_editor/models/bi_sql_view.py:0
 #: code:addons/bi_sql_editor/models/bi_sql_view_field.py:0
-#, python-format
 msgid "You can not create indexes on non materialized views"
 msgstr "Tâche CRON qui va rafraichir la vue matérialisée"
 
 #. module: bi_sql_editor
 #. odoo-python
 #: code:addons/bi_sql_editor/models/bi_sql_view.py:0
-#, python-format
 msgid ""
-"You can only unlink draft views.If you want to delete them, first set them "
+"You can only unlink draft views. If you want to delete them, first set them "
 "to draft."
 msgstr ""
-"Vous pouvez seulement supprimer des vues en brouillon. Si vous voulez les "
-"supprimer, veuillez le repasser à l'état de brouillon auparavant"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__ttype__boolean
@@ -865,18 +864,26 @@ msgstr ""
 msgid "sequence"
 msgstr "Séquence"
 
-#~ msgid "User Interface"
-#~ msgstr "Interface utilisateur"
-
 #~ msgid ""
 #~ "Comma-separated text. Possible values: \"graph\", \"pivot\" or \"tree\""
 #~ msgstr ""
 #~ "Texte séparé par des virgules. Valeurs posisbles : \"graph\", \"pivot\" "
 #~ "ou \"tree\""
 
+#~ msgid "Odoo Tree View"
+#~ msgstr "Vue Liste Odoo"
+
 #, python-format
 #~ msgid "Only graph, pivot or tree views are supported"
 #~ msgstr "Seules les vues graphique, pivot et arbre sont supportées"
+
+#, python-format
+#~ msgid ""
+#~ "You can only unlink draft views.If you want to delete them, first set "
+#~ "them to draft."
+#~ msgstr ""
+#~ "Vous pouvez seulement supprimer des vues en brouillon. Si vous voulez les "
+#~ "supprimer, veuillez le repasser à l'état de brouillon auparavant"
 
 #~ msgid ""
 #~ "Are you sure you want to set to draft this SQL View. It will delete the "
@@ -885,6 +892,9 @@ msgstr "Séquence"
 #~ "Etes vous sur de vouloir remettre la Vue SQL en brouillon. Cela "
 #~ "supprimera la vue (matérialisée), et tout le mapping préalablement "
 #~ "réalisé sur les colonnes"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Dernière modification le"
 
 #~ msgid "Set to Draft"
 #~ msgstr "Remettre en brouillon"

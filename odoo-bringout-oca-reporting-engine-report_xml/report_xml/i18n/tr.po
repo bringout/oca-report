@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-13 02:43+0000\n"
-"PO-Revision-Date: 2025-07-07 13:25+0000\n"
-"Last-Translator: Betül Öğmen <betulo@eska.biz>\n"
+"PO-Revision-Date: 2025-09-11 12:42+0000\n"
+"Last-Translator: Tamer Sezgin <tamer.sezgin@gmail.com>\n"
 "Language-Team: Turkish (https://www.transifex.com/oca/teams/23907/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 #. module: report_xml
 #: model:ir.model,name:report_xml.model_report_report_xml_abstract
 msgid "Abstract XML Report"
-msgstr "Kuramsal XML Raporu"
+msgstr "Soyut XML Raporu"
 
 #. module: report_xml
 #: model:ir.model.fields,help:report_xml.field_ir_actions_report__xml_declaration
@@ -61,12 +61,12 @@ msgstr ""
 #. module: report_xml
 #: model:ir.model,name:report_xml.model_ir_actions_report
 msgid "Report Action"
-msgstr "Rapor İşlemi"
+msgstr "Rapor Eylemi"
 
 #. module: report_xml
 #: model:ir.model.fields,field_description:report_xml.field_ir_actions_report__report_type
 msgid "Report Type"
-msgstr "Çıktı Türü"
+msgstr "Rapor Tipi"
 
 #. module: report_xml
 #: model:ir.model.fields,help:report_xml.field_ir_actions_report__report_type
@@ -89,7 +89,7 @@ msgstr "UTF-8"
 #. module: report_xml
 #: model:ir.model.fields.selection,name:report_xml.selection__ir_actions_report__report_type__qweb-xml
 msgid "XML"
-msgstr ""
+msgstr "XML"
 
 #. module: report_xml
 #: model:ir.model.fields,field_description:report_xml.field_ir_actions_report__xml_declaration

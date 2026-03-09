@@ -11,6 +11,8 @@ from odoo.http import (
     content_disposition,
     request,
     route,
+)
+from odoo.http import (
     serialize_exception as _serialize_exception,
 )
 from odoo.tools import html_escape
@@ -47,12 +49,10 @@ class ReportController(report.ReportController):
                 ("Content-Length", len(csv)),
             ]
             return request.make_response(csv, headers=csvhttpheaders)
-        return super(ReportController, self).report_routes(
-            reportname, docids, converter, **data
-        )
+        return super().report_routes(reportname, docids, converter, **data)
 
     @route()
-    def report_download(self, data, context=None):
+    def report_download(self, data, context=None, token=None, readonly=True):
         requestcontent = json.loads(data)
         url, report_type = requestcontent[0], requestcontent[1]
         reportname = ""
@@ -73,8 +73,9 @@ class ReportController(report.ReportController):
                         url_decode(url.split("?")[1]).items()
                     )  # decoding the args represented in JSON
                     if "context" in data:
-                        context, data_context = json.loads(context or "{}"), json.loads(
-                            data.pop("context")
+                        context, data_context = (
+                            json.loads(context or "{}"),
+                            json.loads(data.pop("context")),
                         )
                         context = json.dumps({**context, **data_context})
                     response = self.report_routes(
@@ -84,7 +85,7 @@ class ReportController(report.ReportController):
                 report = request.env["ir.actions.report"]._get_report_from_name(
                     reportname
                 )
-                filename = "%s.%s" % (report.name, "csv")
+                filename = f"{report.name}.csv"
 
                 if docids:
                     ids = [int(x) for x in docids.split(",")]
@@ -93,13 +94,15 @@ class ReportController(report.ReportController):
                         report_name = safe_eval(
                             report.print_report_name, {"object": obj, "time": time}
                         )
-                        filename = "%s.%s" % (report_name, "csv")
+                        filename = f"{report_name}.csv"
                 response.headers.add(
                     "Content-Disposition", content_disposition(filename)
                 )
                 return response
             else:
-                return super(ReportController, self).report_download(data, context)
+                return super().report_download(
+                    data, context, token=token, readonly=readonly
+                )
         except Exception as e:
             _logger.exception("Error while generating report %s", reportname)
             se = _serialize_exception(e)

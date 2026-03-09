@@ -1,43 +1,53 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* sql_request_abstract
+# * sql_request_abstract
 #
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 9.0c\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"POT-Creation-Date: 2017-06-06 02:51+0000\n"
+"PO-Revision-Date: 2017-06-06 02:51+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
+"Language-Team: Bosnian (https://www.transifex.com/oca/teams/23907/bs/)\n"
+"Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna akcija"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__group_ids
 #: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
 msgid "Allowed Groups"
-msgstr "Dozvoljene grupe"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__user_ids
 #: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
 msgid "Allowed Users"
-msgstr "Dozvoljeni korisnici"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_attachment_count
 msgid "Attachment Count"
-msgstr "Broj priloga"
+msgstr ""
+
+#. module: sql_request_abstract
+#: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__display_name
+msgid "Display Name"
+msgstr "Prikaži naziv"
 
 #. module: sql_request_abstract
 #: model:ir.model.fields.selection,name:sql_request_abstract.selection__bi_sql_view__state__draft
-#: model:ir.model.fields.selection,name:sql_request_abstract.selection__sql_export__state__draft
 #: model:ir.model.fields.selection,name:sql_request_abstract.selection__sql_request_mixin__state__draft
 msgid "Draft"
 msgstr "U pripremi"
@@ -45,59 +55,64 @@ msgstr "U pripremi"
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_follower_ids
 msgid "Followers"
-msgstr "Pratioci"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__has_group_changed
 msgid "Has Group Changed"
-msgstr "Grupa je promijenjena"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__has_message
 msgid "Has Message"
-msgstr "Ima poruku"
+msgstr ""
+
+#. module: sql_request_abstract
+#: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__id
+msgid "ID"
+msgstr "ID"
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+msgstr ""
+
+#. module: sql_request_abstract
+#: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__use_external_database
+msgid ""
+"If filled, the query will be executed against an external database, "
+"configured in Odoo main configuration file. "
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_is_follower
 msgid "Is Follower"
-msgstr "Pratilac"
+msgstr ""
 
 #. module: sql_request_abstract
 #. odoo-python
 #: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
-#, python-format
 msgid "It is not allowed to execute a not checked request."
-msgstr "Nije dozvoljeno izvršiti neprovjereni zahtjev."
-
-#. module: sql_request_abstract
-#: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_main_attachment_id
-msgid "Main Attachment"
-msgstr "Glavna zakačka"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:res.groups,name:sql_request_abstract.group_sql_request_manager
 msgid "Manager"
-msgstr "Upravitelj"
+msgstr ""
 
 #. module: sql_request_abstract
 #. odoo-python
 #: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
-#, python-format
 msgid ""
 "Materialized View requires PostgreSQL 9.3 or greater but PostgreSQL %s is "
 "currently installed."
@@ -106,12 +121,12 @@ msgstr ""
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_has_error
 msgid "Message Delivery error"
-msgstr "Greška pri isporuci poruke"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_ids
 msgid "Messages"
-msgstr "Poruke"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__name
@@ -122,79 +137,79 @@ msgstr "Ime"
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__note
 #: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
 msgid "Note"
-msgstr "Zabilješka"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Broj akcija"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_has_error_counter
 msgid "Number of errors"
-msgstr "Broj grešaka"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Broj poruka koje zahtijevaju aktivnost"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškama pri isporuci"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
 msgid "Preview Results"
-msgstr "Pregled rezultata"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__query
 msgid "Query"
-msgstr "Upit"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
 msgid "SQL Query"
-msgstr "SQL upit"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.module.category,name:sql_request_abstract.category_sql_abstract
+#: model:res.groups.privilege,name:sql_request_abstract.privilege_sql_request
 msgid "SQL Request"
-msgstr "SQL zahtjev"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model,name:sql_request_abstract.model_sql_request_mixin
 msgid "SQL Request Mixin"
-msgstr "SQL zahtjev Mixin"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
 msgid "SQL Settings"
-msgstr "SQL postavke"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields.selection,name:sql_request_abstract.selection__bi_sql_view__state__sql_valid
-#: model:ir.model.fields.selection,name:sql_request_abstract.selection__sql_export__state__sql_valid
 #: model:ir.model.fields.selection,name:sql_request_abstract.selection__sql_request_mixin__state__sql_valid
 msgid "SQL Valid"
-msgstr "SQL valjan"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
 msgid "Security"
-msgstr "Sigurnost"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
 msgid "Set to Draft"
-msgstr "Postavi u pripremu"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__state
 msgid "State"
-msgstr "Status"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__state
@@ -207,14 +222,13 @@ msgstr ""
 #. module: sql_request_abstract
 #: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__has_group_changed
 msgid ""
-"Technical fields, used in modules that depends on this one to know if groups"
-" has changed, and that according access should be updated."
+"Technical fields, used in modules that depends on this one to know if groups "
+"has changed, and that according access should be updated."
 msgstr ""
 
 #. module: sql_request_abstract
 #. odoo-python
 #: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
-#, python-format
 msgid ""
 "The SQL query is not valid:\n"
 "\n"
@@ -224,16 +238,19 @@ msgstr ""
 #. module: sql_request_abstract
 #. odoo-python
 #: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
-#, python-format
 msgid "The query is not allowed because it contains unsafe word '%s'"
-msgstr "Upit nije dozvoljen jer sadrži nebezbjednu riječ '%s'"
+msgstr ""
 
 #. module: sql_request_abstract
 #. odoo-python
 #: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
-#, python-format
 msgid "Unimplemented mode : '%s'"
-msgstr "Neimplementiran način rada: '%s'"
+msgstr ""
+
+#. module: sql_request_abstract
+#: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__use_external_database
+msgid "Use External Database"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:res.groups,name:sql_request_abstract.group_sql_request_user
@@ -243,7 +260,25 @@ msgstr "Korisnik"
 #. module: sql_request_abstract
 #: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
 msgid "Validate SQL Expression"
-msgstr "Validiraj SQL izraz"
+msgstr ""
+
+#. module: sql_request_abstract
+#: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: sql_request_abstract
+#: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: sql_request_abstract
+#. odoo-python
+#: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
+msgid ""
+"You can't use an external database as there are no such configuration about "
+"this. Please contact your Odoo administrator to solve this issue."
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__query
@@ -251,3 +286,6 @@ msgid ""
 "You can't use the following words: DELETE, DROP, CREATE, INSERT, ALTER, "
 "TRUNCATE, EXECUTE, UPDATE."
 msgstr ""
+
+#~ msgid "Last Modified on"
+#~ msgstr "Zadnje mijenjano"

@@ -4,7 +4,7 @@
 
 import re
 
-from odoo import _, api, fields, models
+from odoo import api, fields, models
 from odoo.exceptions import UserError
 
 
@@ -76,34 +76,29 @@ class BiSQLViewField(models.Model):
         help="Check this box if you want to create"
         " an index on that field. This is recommended for searchable and"
         " groupable fields, to reduce duration",
-        states={"model_valid": [("readonly", True)], "ui_valid": [("readonly", True)]},
     )
 
     is_group_by = fields.Boolean(
         string="Is Group by",
         help="Check this box if you want to create"
         " a 'group by' option in the search view",
-        states={"ui_valid": [("readonly", True)]},
     )
 
     index_name = fields.Char(compute="_compute_index_name")
 
     graph_type = fields.Selection(
         selection=_GRAPH_TYPE_SELECTION,
-        states={"ui_valid": [("readonly", True)]},
     )
 
     tree_visibility = fields.Selection(
         selection=_TREE_VISIBILITY_SELECTION,
         default="available",
         required=True,
-        states={"ui_valid": [("readonly", True)]},
     )
 
     field_description = fields.Char(
         help="This will be used as the name of the Odoo field, displayed for users",
         required=True,
-        states={"model_valid": [("readonly", True)], "ui_valid": [("readonly", True)]},
     )
 
     ttype = fields.Selection(
@@ -113,7 +108,6 @@ class BiSQLViewField(models.Model):
         " Odoo field that will be created. Keep empty if you don't want to"
         " create a new field. If empty, this field will not be displayed"
         " neither available for search or group by function",
-        states={"model_valid": [("readonly", True)], "ui_valid": [("readonly", True)]},
     )
 
     selection = fields.Text(
@@ -123,28 +117,24 @@ class BiSQLViewField(models.Model):
         " List of options, specified as a Python expression defining a list of"
         " (key, label) pairs. For example:"
         " [('blue','Blue'), ('yellow','Yellow')]",
-        states={"model_valid": [("readonly", True)], "ui_valid": [("readonly", True)]},
     )
 
     many2one_model_id = fields.Many2one(
         comodel_name="ir.model",
         string="Model",
-        help="For 'Many2one' Odoo field.\n" " Comodel of the field.",
-        states={"model_valid": [("readonly", True)], "ui_valid": [("readonly", True)]},
+        help="For 'Many2one' Odoo field.\n Comodel of the field.",
     )
 
     group_operator = fields.Selection(
         selection=_GROUP_OPERATOR_SELECTION,
         help="By default, Odoo will sum the values when grouping. If you wish "
         "to alter the behaviour, choose an alternate Group Operator",
-        states={"model_valid": [("readonly", True)], "ui_valid": [("readonly", True)]},
     )
 
     field_context = fields.Char(
         default="{}",
         help="Context value that will be inserted for this field in all the views."
         " Important note : please write a context with single quote.",
-        states={"ui_valid": [("readonly", True)]},
     )
 
     # Constrains Section
@@ -153,15 +143,14 @@ class BiSQLViewField(models.Model):
         for rec in self.filtered(lambda x: x.is_index):
             if not rec.bi_sql_view_id.is_materialized:
                 raise UserError(
-                    _("You can not create indexes on non materialized views")
+                    self.env._("You can not create indexes on non materialized views")
                 )
 
     # Compute Section
     def _compute_index_name(self):
         for sql_field in self:
-            sql_field.index_name = "{}_{}".format(
-                sql_field.bi_sql_view_id.view_name,
-                sql_field.name,
+            sql_field.index_name = (
+                f"{sql_field.bi_sql_view_id.view_name}_{sql_field.name}"
             )
 
     # Overload Section
@@ -202,15 +191,15 @@ class BiSQLViewField(models.Model):
             )
         return super().create(vals_list)
 
-    def unlink(self):
+    @api.ondelete(at_uninstall=False)
+    def _check_unlink_constraints(self):
         if self.filtered(lambda x: x.state in ("model_valid", "ui_valid")):
             raise UserError(
-                _(
+                self.env._(
                     "Impossible to delete fields if the view"
                     " is in the state 'Model Valid' or 'UI Valid'."
                 )
             )
-        return super().unlink()
 
     # Custom Section
     @api.model
@@ -219,8 +208,8 @@ class BiSQLViewField(models.Model):
         field name. Sample :
         {'account_id': 'account.account'; 'product_id': 'product.product'}
         """
-        relation_fields = self.env["ir.model.fields"].search(
-            [("ttype", "=", "many2one")]
+        relation_fields = (
+            self.env["ir.model.fields"].sudo().search([("ttype", "=", "many2one")])
         )
         res = {}
         keys_to_pop = []
@@ -249,30 +238,20 @@ class BiSQLViewField(models.Model):
             or False,
         }
 
-    def _prepare_form_field(self):
-        self.ensure_one()
-        return f"""<field name="{self.name}" context="{self.field_context}"/>\n"""
-
     def _prepare_tree_field(self):
         self.ensure_one()
         if self.tree_visibility == "unavailable":
             return ""
         visibility_text = ""
         if self.tree_visibility == "invisible":
-            visibility_text = 'invisible="1"'
+            visibility_text = 'column_invisible="1"'
         elif self.tree_visibility == "optional_hide":
             visibility_text = 'optional="hide"'
         elif self.tree_visibility == "optional_show":
             visibility_text = 'optional="show"'
 
-        operator_text = ""
-        if self.group_operator == "sum":
-            operator_text = f'sum="{_("Total")}"'
-        elif self.group_operator == "avg":
-            operator_text = f'avg="{_("Average")}"'
-
         return (
-            f"""<field name="{self.name}" {visibility_text} {operator_text}"""
+            f"""<field name="{self.name}" {visibility_text}"""
             f""" context="{self.field_context}"/>\n"""
         )
 
@@ -295,26 +274,14 @@ class BiSQLViewField(models.Model):
 
     def _prepare_search_field(self):
         self.ensure_one()
-        return """<field name="{}" context="{}"/>\n""".format(
-            self.name,
-            self.field_context,
-        )
+        return f"""<field name="{self.name}" context="{self.field_context}"/>\n"""
 
     def _prepare_search_filter_field(self):
         self.ensure_one()
-        group_by_filter = ""
-        field_filter = ""
-        if self.is_group_by:
-            group_by_filter = (
-                f"""<filter name="group_by_{self.name}" """
-                f"""string="{self.field_description}" """
-                f"""context="{{'group_by':'{self.name}'}}"/>\n"""
-            )
-        if self.ttype in ["date", "datetime"]:
-            field_filter = (
-                f"""<filter name="filter_{self.name}" """
-                f"""string="{self.field_description}" """
-                f"""date="{self.name}"/>\n"""
-            )
-        res = "%s%s" % (field_filter, group_by_filter)
-        return res
+        if not self.is_group_by:
+            return ""
+        return (
+            f"""<filter name="group_by_{self.name}" """
+            f"""string="{self.field_description}" """
+            f"""context="{{'group_by':'{self.name}'}}"/>\n"""
+        )

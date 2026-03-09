@@ -10,7 +10,7 @@ from odoo.exceptions import UserError
 from odoo.tests import common
 from odoo.tools import mute_logger
 
-from odoo.addons.web.controllers.report import ReportController
+from odoo.addons.report_csv.controllers.main import ReportController
 
 _logger = logging.getLogger(__name__)
 try:
@@ -35,7 +35,15 @@ class TestReport(common.TransactionCase):
             active_model="res.partner"
         )
         self.report_name = "report_csv.partner_csv"
-        self.report = self.report_object._get_report_from_name(self.report_name)
+        self.report = self.report_object.create(
+            {
+                "name": "Print to CSV",
+                "report_name": self.report_name,
+                "model": "res.partner",
+                "report_file": "res_partner",
+                "report_type": "csv",
+            }
+        )
         self.docs = self.env["res.company"].search([], limit=1).partner_id
 
     def test_report(self):
@@ -62,7 +70,6 @@ class TestReport(common.TransactionCase):
         self.assertTupleEqual(rep, rep_from_attachment)
 
     def test_id_retrieval(self):
-
         # Typical call from WebUI with wizard
         objs = self.csv_report._get_objs_for_report(
             False, {"context": {"active_ids": self.docs.ids}}
@@ -116,7 +123,15 @@ class TestCsvReport(common.HttpCase):
             active_model="res.partner"
         )
         self.report_name = "report_csv.partner_csv"
-        self.report = self.report_object._get_report_from_name(self.report_name)
+        self.report = self.report_object.create(
+            {
+                "name": "Print to CSV",
+                "report_name": self.report_name,
+                "model": "res.partner",
+                "report_file": "res_partner",
+                "report_type": "csv",
+            }
+        )
         self.docs = self.env["res.company"].search([], limit=1).partner_id
         self.session = self.authenticate("admin", "admin")
 
@@ -126,11 +141,12 @@ class TestCsvReport(common.HttpCase):
 
     @mute_logger("odoo.addons.web.controllers.report")
     def test_pdf_error(self):
-        with mock.patch.object(
-            ReportController, "report_routes"
-        ) as route_patch, self.assertLogs(
-            "odoo.addons.report_csv.controllers.main", level=logging.ERROR
-        ) as cm:
+        with (
+            mock.patch.object(ReportController, "report_routes") as route_patch,
+            self.assertLogs(
+                "odoo.addons.report_csv.controllers.main", level=logging.ERROR
+            ) as cm,
+        ):
             route_patch.side_effect = TestCsvException("Test")
             self.get_report_headers(
                 suffix="/report/pdf/test/10", f_type="qweb-pdf"

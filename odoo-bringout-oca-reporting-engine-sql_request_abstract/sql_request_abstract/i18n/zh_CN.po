@@ -43,8 +43,12 @@ msgid "Attachment Count"
 msgstr ""
 
 #. module: sql_request_abstract
+#: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: sql_request_abstract
 #: model:ir.model.fields.selection,name:sql_request_abstract.selection__bi_sql_view__state__draft
-#: model:ir.model.fields.selection,name:sql_request_abstract.selection__sql_export__state__draft
 #: model:ir.model.fields.selection,name:sql_request_abstract.selection__sql_request_mixin__state__draft
 msgid "Draft"
 msgstr "草稿"
@@ -70,6 +74,11 @@ msgid "Has Message"
 msgstr ""
 
 #. module: sql_request_abstract
+#: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sql_request_abstract
 #: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__message_needaction
 msgid "If checked, new messages require your attention."
 msgstr ""
@@ -80,6 +89,13 @@ msgid "If checked, some messages have a delivery error."
 msgstr ""
 
 #. module: sql_request_abstract
+#: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__use_external_database
+msgid ""
+"If filled, the query will be executed against an external database, "
+"configured in Odoo main configuration file. "
+msgstr ""
+
+#. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_is_follower
 msgid "Is Follower"
 msgstr ""
@@ -87,14 +103,8 @@ msgstr ""
 #. module: sql_request_abstract
 #. odoo-python
 #: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
-#, python-format
 msgid "It is not allowed to execute a not checked request."
 msgstr "不允许执行未检查的请求。"
-
-#. module: sql_request_abstract
-#: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_main_attachment_id
-msgid "Main Attachment"
-msgstr ""
 
 #. module: sql_request_abstract
 #: model:res.groups,name:sql_request_abstract.group_sql_request_manager
@@ -104,7 +114,6 @@ msgstr "管理员"
 #. module: sql_request_abstract
 #. odoo-python
 #: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
-#, python-format
 msgid ""
 "Materialized View requires PostgreSQL 9.3 or greater but PostgreSQL %s is "
 "currently installed."
@@ -168,6 +177,7 @@ msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.module.category,name:sql_request_abstract.category_sql_abstract
+#: model:res.groups.privilege,name:sql_request_abstract.privilege_sql_request
 msgid "SQL Request"
 msgstr "SQL请求"
 
@@ -183,7 +193,6 @@ msgstr ""
 
 #. module: sql_request_abstract
 #: model:ir.model.fields.selection,name:sql_request_abstract.selection__bi_sql_view__state__sql_valid
-#: model:ir.model.fields.selection,name:sql_request_abstract.selection__sql_export__state__sql_valid
 #: model:ir.model.fields.selection,name:sql_request_abstract.selection__sql_request_mixin__state__sql_valid
 msgid "SQL Valid"
 msgstr "SQL有效"
@@ -224,7 +233,6 @@ msgstr ""
 #. module: sql_request_abstract
 #. odoo-python
 #: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
-#, python-format
 msgid ""
 "The SQL query is not valid:\n"
 "\n"
@@ -237,16 +245,19 @@ msgstr ""
 #. module: sql_request_abstract
 #. odoo-python
 #: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
-#, python-format
 msgid "The query is not allowed because it contains unsafe word '%s'"
 msgstr "不允许查询，因为它包含不安全的单词 '%s'"
 
 #. module: sql_request_abstract
 #. odoo-python
 #: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
-#, python-format
 msgid "Unimplemented mode : '%s'"
 msgstr "未实现的模式 : '%s'"
+
+#. module: sql_request_abstract
+#: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__use_external_database
+msgid "Use External Database"
+msgstr ""
 
 #. module: sql_request_abstract
 #: model:res.groups,name:sql_request_abstract.group_sql_request_user
@@ -259,6 +270,24 @@ msgid "Validate SQL Expression"
 msgstr ""
 
 #. module: sql_request_abstract
+#: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: sql_request_abstract
+#: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: sql_request_abstract
+#. odoo-python
+#: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
+msgid ""
+"You can't use an external database as there are no such configuration about "
+"this. Please contact your Odoo administrator to solve this issue."
+msgstr ""
+
+#. module: sql_request_abstract
 #: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__query
 msgid ""
 "You can't use the following words: DELETE, DROP, CREATE, INSERT, ALTER, "
@@ -266,12 +295,6 @@ msgid ""
 msgstr ""
 "您不能使用以下单词：DELETE，DROP，CREATE，INSERT，ALTER，TRUNCATE，EXECUTE，"
 "UPDATE。"
-
-#~ msgid "Display Name"
-#~ msgstr "显示名称"
-
-#~ msgid "ID"
-#~ msgstr "ID"
 
 #~ msgid "Last Modified on"
 #~ msgstr "最后修改时间"

@@ -95,7 +95,7 @@ msgstr "Dozvoli asinhrono"
 
 #. module: report_async
 #. odoo-python
-#: code:addons/report_async/models/report_async.py
+#: code:addons/report_async/models/report_async.py:0
 #, python-format
 msgid "Background process not allowed."
 msgstr "Pozadinski proces nije dozvoljen."
@@ -118,7 +118,7 @@ msgstr "Kreirano"
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__reference
@@ -193,7 +193,7 @@ msgstr "Zadaci"
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: report_async
 #: model_terms:ir.ui.view,arch_db:report_async.view_report_async_form
@@ -233,7 +233,7 @@ msgstr "Prikaži sve poslove vezane za ovaj pokretni izvještaj"
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_report_async__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: report_async
 #: model_terms:ir.actions.act_window,help:report_async.action_view_files

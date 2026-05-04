@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
 #, python-format
 msgid ""
 "%(__name__)s, _write_line : programming error detected while processing "
@@ -26,14 +26,14 @@ msgstr ""
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/models/ir_actions_report.py
+#: code:addons/report_xlsx_helper/models/ir_actions_report.py:0
 #, python-format
 msgid "%s model was not found"
 msgstr "%s model nije pronađen"
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
 #, python-format
 msgid ", cellvalue %s"
 msgstr ", vrijednost ćelije %s"
@@ -45,7 +45,7 @@ msgstr "Apstraktni XLSX izvještaj"
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
 #, python-format
 msgid ""
 "Programming Error:\n"
@@ -58,7 +58,7 @@ msgstr ""
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
 #, python-format
 msgid ""
 "Programming Error:\n"
@@ -71,7 +71,7 @@ msgstr ""
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
 #, python-format
 msgid ""
 "Programming Error:\n"
@@ -84,7 +84,7 @@ msgstr ""
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
 #, python-format
 msgid ""
 "Programming Error:\n"
@@ -97,7 +97,7 @@ msgstr ""
 
 #. module: report_xlsx_helper
 #. odoo-python
-#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py
+#: code:addons/report_xlsx_helper/report/report_xlsx_abstract.py:0
 #, python-format
 msgid ""
 "Programming Error:\n"
@@ -117,3 +117,13 @@ msgstr "Akcija izvještaja"
 #: model:ir.model,name:report_xlsx_helper.model_report_report_xlsx_helper_test_partner_xlsx
 msgid "Test Partner XLSX Report"
 msgstr "Testni XLSX izvještaj o partnerima"
+
+#. module: report_xlsx_helper
+#: model:ir.model.fields,field_description:report_xlsx_helper.field_ir_actions_report__display_name
+msgid "Display Name"
+msgstr "Naziv za prikaz"
+
+#. module: report_xlsx_helper
+#: model:ir.model.fields,field_description:report_xlsx_helper.field_ir_actions_report__id
+msgid "ID"
+msgstr "ID"

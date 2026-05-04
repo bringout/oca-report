@@ -21,12 +21,12 @@ msgstr "Kompanije"
 #. module: pingen_env
 #: model:ir.model.fields,field_description:pingen_env.field_res_company__pingen_client_secretid
 msgid "Pingen Client Secretid"
-msgstr "Pingen Client Secretid"
+msgstr ""
 
 #. module: pingen_env
 #: model:ir.model.fields,field_description:pingen_env.field_res_company__pingen_clientid
 msgid "Pingen Clientid"
-msgstr "Pingen Clientid"
+msgstr ""
 
 #. module: pingen_env
 #: model:ir.model.fields,field_description:pingen_env.field_res_company__pingen_staging

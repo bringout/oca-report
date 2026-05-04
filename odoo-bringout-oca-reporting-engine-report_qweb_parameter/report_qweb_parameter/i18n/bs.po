@@ -20,19 +20,19 @@ msgstr "Length Izvještaj"
 
 #. module: report_qweb_parameter
 #. odoo-python
-#: code:addons/report_qweb_parameter/models/ir_qweb.py
+#: code:addons/report_qweb_parameter/models/ir_qweb.py:0
 #, python-format
 msgid "Length cannot be less than %s"
-msgstr "Length cannot be less than %s"
+msgstr ""
 
 #. module: report_qweb_parameter
 #. odoo-python
-#: code:addons/report_qweb_parameter/models/ir_qweb.py
+#: code:addons/report_qweb_parameter/models/ir_qweb.py:0
 #, python-format
 msgid "Length cannot be more than %s"
-msgstr "Length cannot be more than %s"
+msgstr ""
 
 #. module: report_qweb_parameter
 #: model:ir.model,name:report_qweb_parameter.model_ir_qweb
 msgid "Qweb"
-msgstr "Qweb"
+msgstr ""

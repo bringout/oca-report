@@ -36,7 +36,7 @@ msgstr ""
 
 #. module: report_csv
 #. odoo-python
-#: code:addons/report_csv/report/report_csv.py
+#: code:addons/report_csv/report/report_csv.py:0
 #, python-format
 msgid "Failed to encode the data with the encoding set in the report."
 msgstr "Neuspjeh kodiranja podataka s kodiranjem postavljenim u izvještaju."
@@ -97,3 +97,13 @@ msgstr ""
 #: model:ir.model.fields.selection,name:report_csv.selection__ir_actions_report__report_type__csv
 msgid "csv"
 msgstr "csv"
+
+#. module: report_csv
+#: model:ir.model.fields,field_description:report_csv.field_ir_actions_report__display_name
+msgid "Display Name"
+msgstr "Naziv za prikaz"
+
+#. module: report_csv
+#: model:ir.model.fields,field_description:report_csv.field_ir_actions_report__id
+msgid "ID"
+msgstr "ID"

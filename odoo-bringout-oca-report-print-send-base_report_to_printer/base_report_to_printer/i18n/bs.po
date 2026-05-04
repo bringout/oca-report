@@ -107,7 +107,7 @@ msgstr "Može biti ponovno pokrenuto"
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printer_update_wizard
 msgid "Cancel"
-msgstr "Odustani"
+msgstr "Otkaži"
 
 # taken from hr.po
 #. module: base_report_to_printer
@@ -148,7 +148,7 @@ msgstr "Otkazano, ali ispisuje već obrađene stranice"
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__company_ids
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: base_report_to_printer
@@ -192,7 +192,7 @@ msgstr "Kopije"
 
 #. module: base_report_to_printer
 #. odoo-javascript
-#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
 #, python-format
 msgid "Could not sent to printer!"
 msgstr "Ne mogu poslati na štampač!"
@@ -293,7 +293,7 @@ msgstr "Onemogući"
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: base_report_to_printer
@@ -331,7 +331,7 @@ msgstr "Greška u dokumentu"
 
 #. module: base_report_to_printer
 #. odoo-python
-#: code:addons/base_report_to_printer/models/printing_server.py
+#: code:addons/base_report_to_printer/models/printing_server.py:0
 #, python-format
 msgid ""
 "Failed to connect to the CUPS server on %(address)s:%(port)s. Check that the"
@@ -354,7 +354,7 @@ msgstr "Datoteke nisu u potpunosti preuzete"
 
 #. module: base_report_to_printer
 #. odoo-python
-#: code:addons/base_report_to_printer/wizards/print_attachment_report.py
+#: code:addons/base_report_to_printer/wizards/print_attachment_report.py:0
 #, python-format
 msgid ""
 "Following attachments could not be printed:\n"
@@ -368,22 +368,22 @@ msgstr ""
 #. module: base_report_to_printer
 #: model:ir.model.fields.selection,name:base_report_to_printer.selection__printing_server__encryption_policy__3
 msgid "HTTP_ENCRYPT_ALWAYS"
-msgstr "HTTP_ENCRYPT_ALWAYS"
+msgstr ""
 
 #. module: base_report_to_printer
 #: model:ir.model.fields.selection,name:base_report_to_printer.selection__printing_server__encryption_policy__0
 msgid "HTTP_ENCRYPT_IF_REQUESTED"
-msgstr "HTTP_ENCRYPT_IF_REQUESTED"
+msgstr ""
 
 #. module: base_report_to_printer
 #: model:ir.model.fields.selection,name:base_report_to_printer.selection__printing_server__encryption_policy__1
 msgid "HTTP_ENCRYPT_NEVER"
-msgstr "HTTP_ENCRYPT_NEVER"
+msgstr ""
 
 #. module: base_report_to_printer
 #: model:ir.model.fields.selection,name:base_report_to_printer.selection__printing_server__encryption_policy__2
 msgid "HTTP_ENCRYPT_REQUIRED"
-msgstr "HTTP_ENCRYPT_REQUIRED"
+msgstr ""
 
 # taken from hr.po
 #. module: base_report_to_printer
@@ -410,7 +410,7 @@ msgstr "Ako je označeno, poslužitelj se može koristiti"
 
 #. module: base_report_to_printer
 #. odoo-javascript
-#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
 #, python-format
 msgid "Issue on"
 msgstr "Problem na"
@@ -449,7 +449,7 @@ msgstr "Zadaci ispisani na ovom pisaču"
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action____last_update
 msgid "Last Modified on"
-msgstr "Zadnje modificirano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: base_report_to_printer
@@ -461,7 +461,7 @@ msgstr "Zadnji ažurirao"
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje"
+msgstr "Zadnje ažurirano"
 
 # taken from hr.po
 #. module: base_report_to_printer
@@ -483,7 +483,7 @@ msgstr "Napredak medija"
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__model
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__multi_thread
@@ -511,7 +511,7 @@ msgstr "Nema zaprimljenih podataka"
 # taken from hr.po
 #. module: base_report_to_printer
 #. odoo-python
-#: code:addons/base_report_to_printer/models/ir_actions_report.py
+#: code:addons/base_report_to_printer/models/ir_actions_report.py:0
 #, python-format
 msgid "No printer configured to print this report."
 msgstr "Nijedan pisač nije postavljen za ispis ovog izvještaja."
@@ -567,7 +567,7 @@ msgstr "Postotak napredka za ovaj zadatak"
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__port
 msgid "Port"
-msgstr "Port"
+msgstr ""
 
 # taken from hr.po
 #. module: base_report_to_printer
@@ -578,7 +578,7 @@ msgstr "Port na poslužitelju"
 # taken from hr.po
 #. module: base_report_to_printer
 #. odoo-javascript
-#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
 #, python-format
 msgid "Print"
 msgstr "Ispis"
@@ -843,7 +843,7 @@ msgstr "Razlog stanja"
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__status
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__status_message
@@ -852,7 +852,7 @@ msgstr "Poruka statusa"
 
 #. module: base_report_to_printer
 #. odoo-javascript
-#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
 #, python-format
 msgid "Successfully sent to printer!"
 msgstr "Uspješno poslano na štampač!"
@@ -876,7 +876,7 @@ msgstr "ID zadatka mora biti jedinstven po poslužitelju!"
 
 #. module: base_report_to_printer
 #. odoo-javascript
-#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
 #, python-format
 msgid "The report"
 msgstr "Izvještaj"
@@ -897,7 +897,7 @@ msgstr ""
 
 #. module: base_report_to_printer
 #. odoo-python
-#: code:addons/base_report_to_printer/models/ir_actions_report.py
+#: code:addons/base_report_to_printer/models/ir_actions_report.py:0
 #, python-format
 msgid "This report type (%s) is not supported by direct printing!"
 msgstr "Ovaj tip izvještaja (%s) nije podržan od direktnog štampanja!"
@@ -979,14 +979,14 @@ msgstr "ID čarobnjaka"
 
 #. module: base_report_to_printer
 #. odoo-javascript
-#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
 #, python-format
 msgid "couldn't be printed. Click on the button below to download it"
 msgstr "se nije mogao štampati. Kliknite na dugme ispod da ga preuzmete"
 
 #. module: base_report_to_printer
 #. odoo-python
-#: code:addons/base_report_to_printer/wizards/print_attachment_report.py
+#: code:addons/base_report_to_printer/wizards/print_attachment_report.py:0
 #, python-format
 msgid "{name} ({copies} copies)"
 msgstr "{name} ({copies} kopija)"

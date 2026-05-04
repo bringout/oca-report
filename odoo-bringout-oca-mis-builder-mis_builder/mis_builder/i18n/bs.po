@@ -26,7 +26,7 @@ msgstr ""
 # taken from hr.po
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (kopija)"
@@ -197,7 +197,7 @@ msgstr ""
 #. module: mis_builder
 #: model_terms:ir.ui.view,arch_db:mis_builder.report_mis_report_instance
 msgid "<span>-</span>"
-msgstr "<span>-</span>"
+msgstr ""
 
 # taken from hr.po
 #. module: mis_builder
@@ -223,7 +223,7 @@ msgstr ""
 # taken from hr.po
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid "A date filter is mandatory for this source in column %s."
 msgstr "Filter po datumu je obavezan za izvor podataka u koloni %s."
@@ -260,7 +260,7 @@ msgstr "Kumulativna metoda"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid ""
 "Actual (alternative) models used in columns must have the same account model"
@@ -375,7 +375,7 @@ msgstr "Analitički domen"
 
 #. module: mis_builder
 #. odoo-javascript
-#: code:addons/mis_builder/static/src/components/mis_report_widget.xml
+#: code:addons/mis_builder/static/src/components/mis_report_widget.xml:0
 #, python-format
 msgid "Annotate"
 msgstr "Zabilježi"
@@ -394,7 +394,7 @@ msgstr "Automatsko širenje"
 # taken from hr.po
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "Average"
 msgstr "Prosjek"
@@ -429,7 +429,7 @@ msgstr "Podebljano"
 # taken from hr.po
 #. module: mis_builder
 #. odoo-javascript
-#: code:addons/mis_builder/static/src/components/mis_report_widget.esm.js
+#: code:addons/mis_builder/static/src/components/mis_report_widget.esm.js:0
 #, python-format
 msgid "Cancel"
 msgstr "Otkaži"
@@ -458,14 +458,14 @@ msgstr "Kolona"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid "Column %s cannot be compared to itrec."
 msgstr "Kolona %s se ne može porediti s itrec."
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid "Column %s with move lines source must have from/to dates."
 msgstr "Kolona %s s izvorom stavki knjiženja mora imati datume od/do."
@@ -477,14 +477,14 @@ msgstr "Kolone"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/kpimatrix.py
+#: code:addons/mis_builder/models/kpimatrix.py:0
 #, python-format
 msgid "Columns %(descr)s and %(base_descr)s are not comparable"
 msgstr "Kolone %(descr)s i %(base_descr)s nisu uporedive"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid "Columns to compare must belong to the same report in %s"
 msgstr "Kolone za poređenje moraju pripadati istom izvještaju u %s"
@@ -558,7 +558,7 @@ msgstr "Datum od"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid "Date Range"
 msgstr "Datumski opseg"
@@ -580,7 +580,7 @@ msgstr "Datumi"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid "Day"
 msgstr "Dan"
@@ -601,7 +601,7 @@ msgstr ""
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "Difference"
 msgstr "Razlika"
@@ -620,7 +620,7 @@ msgstr "Prikaz opisa kolona"
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_add_mis_report_instance_dashboard_wizard__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Naziv za prikaz"
 
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report_kpi__auto_expand_accounts
@@ -673,7 +673,7 @@ msgstr ""
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/aep.py
+#: code:addons/mis_builder/models/aep.py:0
 #, python-format
 msgid ""
 "Error while querying move line source \"%(model_name)s\". This is likely due to a filter or expression referencing a field that does not exist in the model.\n"
@@ -690,7 +690,7 @@ msgstr "Primjeri:"
 
 #. module: mis_builder
 #. odoo-javascript
-#: code:addons/mis_builder/static/src/components/mis_report_widget.xml
+#: code:addons/mis_builder/static/src/components/mis_report_widget.xml:0
 #, python-format
 msgid "Export"
 msgstr "Izvoz"
@@ -764,7 +764,7 @@ msgstr "Fiksni datumi"
 #. module: mis_builder
 #: model_terms:ir.ui.view,arch_db:mis_builder.mis_report_style_view_form
 msgid "Font"
-msgstr "Font"
+msgstr ""
 
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report_style__font_size
@@ -813,7 +813,7 @@ msgstr "Od (izračunato)"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/report/mis_report_instance_xlsx.py
+#: code:addons/mis_builder/report/mis_report_instance_xlsx.py:0
 #, python-format
 msgid "Generated on %(gen_date)s at %(gen_time)s"
 msgstr "Generirano %(gen_date)s u %(gen_time)s"
@@ -850,7 +850,7 @@ msgstr "ID"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/aep.py
+#: code:addons/mis_builder/models/aep.py:0
 #, python-format
 msgid ""
 "If currency_id is not provided, all companies must have the same currency."
@@ -873,14 +873,14 @@ msgstr "Nasljeđuj nivo uvlake"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_style.py
+#: code:addons/mis_builder/models/mis_report_style.py:0
 #, python-format
 msgid "Indent level must be greater than or equal to 0"
 msgstr "Nivo uvlačenja mora biti veći ili jednak 0"
 
 #. module: mis_builder
 #. odoo-javascript
-#: code:addons/mis_builder/static/src/components/mis_report_widget.xml
+#: code:addons/mis_builder/static/src/components/mis_report_widget.xml:0
 #, python-format
 msgid "Insert note here"
 msgstr "Unesite bilješku ovdje"
@@ -888,7 +888,7 @@ msgstr "Unesite bilješku ovdje"
 #. module: mis_builder
 #: model:ir.model.fields.selection,name:mis_builder.selection__mis_report_style__font_style__italic
 msgid "Italic"
-msgstr "Italic"
+msgstr ""
 
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_mis_kpi_data__kpi_expression_id
@@ -897,7 +897,7 @@ msgstr "KPI"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid ""
 "KPI \"%(kpi)s\" has type %(type)s while a tuple was expected.\n"
@@ -915,7 +915,7 @@ msgstr ""
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid ""
 "KPI \"%(kpi)s\" is valued as a tuple of length %(length)s while a tuple of "
@@ -931,7 +931,7 @@ msgstr "Redoslijed KPI"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "KPI name ({}) must be a valid python identifier"
 msgstr "Naziv KPI ({}) mora biti važeći python identifikator"
@@ -954,7 +954,7 @@ msgstr "KPI"
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report_instance_period__name
 msgid "Label"
-msgstr "Opis"
+msgstr "Oznaka"
 
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report_instance__landscape_pdf
@@ -964,7 +964,7 @@ msgstr "Ležeći PDF"
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_add_mis_report_instance_dashboard_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: mis_builder
 #: model:ir.actions.act_window,name:mis_builder.last_mis_report_instance_view_action
@@ -1103,14 +1103,14 @@ msgstr "Instanca MIS izvještaja XLS izvještaj"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "Max"
 msgstr "Maksimum"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "Min"
 msgstr "Minimum"
@@ -1128,11 +1128,11 @@ msgstr "Mod"
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report_instance__source_aml_model_name
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid "Month"
 msgstr "Mjesec"
@@ -1175,14 +1175,14 @@ msgstr "Nema filtera datuma"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid "No date filter is allowed for this source in column %s."
 msgstr "Nije dozvoljen filter datuma za ovaj izvor u koloni %s."
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "None"
 msgstr "Ništa"
@@ -1209,7 +1209,7 @@ msgstr "Broj perioda"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "Numeric"
 msgstr "Numerički"
@@ -1236,7 +1236,7 @@ msgstr "Roditeljska kolona"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "Percentage"
 msgstr "Postotak"
@@ -1244,7 +1244,7 @@ msgstr "Postotak"
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report_instance_annotation__period_id
 msgid "Period"
-msgstr "Period"
+msgstr ""
 
 #. module: mis_builder
 #: model:ir.model.constraint,message:mis_builder.constraint_mis_report_instance_period_name_unique
@@ -1268,14 +1268,14 @@ msgstr "Referentni datum"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid "Please provide both columns to compare in %s."
 msgstr "Molimo navedite obje kolone za poređenje u %s."
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid ""
 "Please select a report template and/or save the report before adding "
@@ -1301,7 +1301,7 @@ msgstr "Pregled"
 
 #. module: mis_builder
 #. odoo-javascript
-#: code:addons/mis_builder/static/src/components/mis_report_widget.xml
+#: code:addons/mis_builder/static/src/components/mis_report_widget.xml:0
 #, python-format
 msgid "Print"
 msgstr "Ispis"
@@ -1313,14 +1313,14 @@ msgstr "Upiti"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "Query name ({}) must be valid python identifier"
 msgstr "Naziv upita ({}) mora biti važeći python identifikator"
 
 #. module: mis_builder
 #. odoo-javascript
-#: code:addons/mis_builder/static/src/components/mis_report_widget.xml
+#: code:addons/mis_builder/static/src/components/mis_report_widget.xml:0
 #, python-format
 msgid "Refresh"
 msgstr "Osvježi"
@@ -1332,7 +1332,7 @@ msgstr "Relativan na osnovni datum izvještaja"
 
 #. module: mis_builder
 #. odoo-javascript
-#: code:addons/mis_builder/static/src/components/mis_report_widget.esm.js
+#: code:addons/mis_builder/static/src/components/mis_report_widget.esm.js:0
 #, python-format
 msgid "Remove"
 msgstr "Otpis"
@@ -1370,7 +1370,7 @@ msgstr "Zaokruživanje nasljeđivanja"
 
 #. module: mis_builder
 #. odoo-javascript
-#: code:addons/mis_builder/static/src/components/mis_report_widget.esm.js
+#: code:addons/mis_builder/static/src/components/mis_report_widget.esm.js:0
 #, python-format
 msgid "Save"
 msgstr "Spremi"
@@ -1398,11 +1398,11 @@ msgstr ""
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report_instance__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: mis_builder
 #. odoo-javascript
-#: code:addons/mis_builder/static/src/components/mis_report_widget.xml
+#: code:addons/mis_builder/static/src/components/mis_report_widget.xml:0
 #, python-format
 msgid "Settings"
 msgstr "Postavke"
@@ -1458,7 +1458,7 @@ msgstr "Izvor"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "String"
 msgstr "Tekst"
@@ -1525,7 +1525,7 @@ msgstr "Redoslijed pod-KPI"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "Sub-KPI name ({}) must be a valid python identifier"
 msgstr "Naziv pod-KPI-ja ({}) mora biti važeći python identifikator"
@@ -1542,14 +1542,14 @@ msgstr "Pod-izvještaj"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_subreport.py
+#: code:addons/mis_builder/models/mis_report_subreport.py:0
 #, python-format
 msgid "Subreport loop detected"
 msgstr "Otkrivena petlja pod-izvještaja"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_subreport.py
+#: code:addons/mis_builder/models/mis_report_subreport.py:0
 #, python-format
 msgid "Subreport name ({}) must be a valid python identifier"
 msgstr "Naziv pod-izvještaja ({}) mora biti važeći python identifikator"
@@ -1571,7 +1571,7 @@ msgstr "Nasljeđuj sufiks"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "Sum"
 msgstr "Zbroj"
@@ -1583,7 +1583,7 @@ msgstr "Zbroji detalje računa"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/kpimatrix.py
+#: code:addons/mis_builder/models/kpimatrix.py:0
 #, python-format
 msgid ""
 "Sum cannot be computed in column {} because the columns to sum have no "
@@ -1601,7 +1601,7 @@ msgstr "Zbroj kolone"
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report_instance__target_move
 msgid "Target Moves"
-msgstr "Ciljane stavke"
+msgstr "Transakcije"
 
 #. module: mis_builder
 #: model_terms:ir.ui.view,arch_db:mis_builder.mis_report_instance_view_form
@@ -1666,21 +1666,21 @@ msgstr "Do (izračunato)"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_kpi_data.py
+#: code:addons/mis_builder/models/mis_kpi_data.py:0
 #, python-format
 msgid "Unexpected accumulation method %(method)s for %(name)s."
 msgstr "Neočekivana metoda akumulacije %(method)s za %(name)s."
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report.py
+#: code:addons/mis_builder/models/mis_report.py:0
 #, python-format
 msgid "Unexpected value %s for target_move."
 msgstr "Neočekivana vrijednost %s za target_move."
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/prorata_read_group_mixin.py
+#: code:addons/mis_builder/models/prorata_read_group_mixin.py:0
 #, python-format
 msgid "Unsupported operator %s for searching on date"
 msgstr "Nepodržan operator %s za pretraživanje po datumu"
@@ -1717,7 +1717,7 @@ msgstr "Vidljivost"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid "Week"
 msgstr "Sedmica"
@@ -1739,7 +1739,7 @@ msgstr "Pogrešan faktor normalizacije, mora biti pozitivan!"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid "Year"
 msgstr "Godina"
@@ -1751,42 +1751,42 @@ msgstr "Od početka godine"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid "You cannot sum period %s with itself."
 msgstr "Ne možete sabrati period %s sa samim sobom."
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance_annotation.py
+#: code:addons/mis_builder/models/mis_report_instance_annotation.py:0
 #, python-format
 msgid "You do not have the rights to edit annotations"
 msgstr "Nemate prava za uređivanje bilješki"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/aep.py
+#: code:addons/mis_builder/models/aep.py:0
 #, python-format
 msgid "`%(field)s` cannot have a field name in expression %(expr)s"
 msgstr "`%(field)s` ne može imati naziv polja u izrazu %(expr)s"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/aep.py
+#: code:addons/mis_builder/models/aep.py:0
 #, python-format
 msgid "`fld` can only be used with mode `p` (variation) in expression %s"
 msgstr "`fld` se može koristiti samo s modom `p` (varijacija) u izrazu %s"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/aep.py
+#: code:addons/mis_builder/models/aep.py:0
 #, python-format
 msgid "`fld` must have a field name in exression %s"
 msgstr "`fld` mora imati naziv polja u izrazu %s"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_instance.py
+#: code:addons/mis_builder/models/mis_report_instance.py:0
 #, python-format
 msgid "from %(date_from)s to %(date_to)s"
 msgstr "od %(date_from)s do %(date_to)s"
@@ -1809,7 +1809,7 @@ msgstr "ili"
 
 #. module: mis_builder
 #. odoo-python
-#: code:addons/mis_builder/models/mis_report_style.py
+#: code:addons/mis_builder/models/mis_report_style.py:0
 #, python-format
 msgid "pp"
 msgstr "pp"

@@ -29,7 +29,7 @@ msgstr ""
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__create_uid
@@ -49,7 +49,7 @@ msgstr "Valuta"
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__currency_field_id
 msgid "Currency Field"
-msgstr "Currency Field"
+msgstr ""
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__digits
@@ -59,7 +59,7 @@ msgstr "Znamenke"
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__field_id
@@ -88,19 +88,17 @@ msgstr "ID"
 
 #. module: report_qweb_field_option
 #. odoo-python
-#: code:addons/report_qweb_field_option/models/qweb_field_options.py
+#: code:addons/report_qweb_field_option/models/qweb_field_options.py:0
 #, python-format
 msgid ""
 "Invalid string for the Options field: %(field_options)s.\n"
 "Error: %(error)s"
 msgstr ""
-"Invalid string for the Options field: %(field_options)s.\n"
-"Error: %(error)s"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__write_uid
@@ -115,7 +113,7 @@ msgstr "Zadnje ažurirano"
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__res_model_id
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__res_model_name
@@ -129,7 +127,7 @@ msgstr "Opcije"
 
 #. module: report_qweb_field_option
 #. odoo-python
-#: code:addons/report_qweb_field_option/models/qweb_field_options.py
+#: code:addons/report_qweb_field_option/models/qweb_field_options.py:0
 #, python-format
 msgid "Options must be a dictionary, but got %s"
 msgstr "Options Mora be a dictionary, but got %s"
@@ -137,17 +135,17 @@ msgstr "Options Mora be a dictionary, but got %s"
 #. module: report_qweb_field_option
 #: model:ir.model,name:report_qweb_field_option.model_ir_qweb
 msgid "Qweb"
-msgstr "Qweb"
+msgstr ""
 
 #. module: report_qweb_field_option
 #: model:ir.actions.act_window,name:report_qweb_field_option.action_qweb_field_options_view
 msgid "Qweb Field Options"
-msgstr "Qweb Field Options"
+msgstr ""
 
 #. module: report_qweb_field_option
 #: model_terms:ir.ui.view,arch_db:report_qweb_field_option.view_qweb_field_options_searh
 msgid "Qweb Field Options Search"
-msgstr "Qweb Field Options Search"
+msgstr ""
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__uom_id
@@ -157,4 +155,4 @@ msgstr "JMJ"
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__uom_field_id
 msgid "UoM Field"
-msgstr "UoM Field"
+msgstr ""

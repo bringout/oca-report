@@ -73,7 +73,7 @@ msgstr "Kreirano"
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__domain
@@ -93,7 +93,7 @@ msgstr "E-mail adresa koja se uključuje u PDF digitalni potpis."
 #. module: report_qweb_signer
 #: model:ir.model.fields.selection,name:report_qweb_signer.selection__report_certificate__signing_method__endesive
 msgid "Endesive"
-msgstr "Endesive"
+msgstr ""
 
 #. module: report_qweb_signer
 #: model:ir.model.fields,help:report_qweb_signer.field_report_certificate__attachment
@@ -121,13 +121,13 @@ msgstr ""
 #. module: report_qweb_signer
 #: model:ir.model.fields.selection,name:report_qweb_signer.selection__report_certificate__signing_method__java
 msgid "Java"
-msgstr "Java"
+msgstr ""
 
 # taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: report_qweb_signer
@@ -149,7 +149,7 @@ msgstr "Lokacija koja se uključuje u digitalni potpis (obično naziv grada). "
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__model_id
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 #. module: report_qweb_signer
 #: model:ir.model.fields,help:report_qweb_signer.field_report_certificate__model_id
@@ -160,7 +160,7 @@ msgstr "Model na koji se primjenjuje ovaj certifikat"
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__name
 msgid "Name"
-msgstr "Ime"
+msgstr "Naziv"
 
 #. module: report_qweb_signer
 #: model:ir.actions.act_window,name:report_qweb_signer.action_report_certificate
@@ -229,7 +229,7 @@ msgstr "Spremi kao prilog"
 
 #. module: report_qweb_signer
 #. odoo-python
-#: code:addons/report_qweb_signer/models/ir_actions_report.py
+#: code:addons/report_qweb_signer/models/ir_actions_report.py:0
 #, python-format
 msgid ""
 "Saving signed report (PDF): You do not have enough access rights to save "
@@ -242,7 +242,7 @@ msgstr ""
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__endesive_certificate_mail
@@ -266,7 +266,7 @@ msgstr "Metoda potpisivanja"
 
 #. module: report_qweb_signer
 #. odoo-python
-#: code:addons/report_qweb_signer/models/ir_actions_report.py
+#: code:addons/report_qweb_signer/models/ir_actions_report.py:0
 #, python-format
 msgid "Signing report (PDF): Certificate or password file not found"
 msgstr ""
@@ -275,7 +275,7 @@ msgstr ""
 
 #. module: report_qweb_signer
 #. odoo-python
-#: code:addons/report_qweb_signer/models/ir_actions_report.py
+#: code:addons/report_qweb_signer/models/ir_actions_report.py:0
 #, python-format
 msgid ""
 "Signing report (PDF): jPdfSign failed (error code: %(error_code)s). Message:"

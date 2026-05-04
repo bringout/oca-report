@@ -31,7 +31,7 @@ msgstr ""
 
 #. module: sql_export_mail
 #. odoo-python
-#: code:addons/sql_export_mail/models/sql_export.py
+#: code:addons/sql_export_mail/models/sql_export.py:0
 #, python-format
 msgid ""
 "A query that uses the company_id or user_id parameter cannot be directly "
@@ -75,7 +75,7 @@ msgstr "Datoteka nije prazna"
 
 #. module: sql_export_mail
 #. odoo-python
-#: code:addons/sql_export_mail/models/sql_export.py
+#: code:addons/sql_export_mail/models/sql_export.py:0
 #, python-format
 msgid ""
 "It is not possible to execute and send a query automatically by mail if "
@@ -101,7 +101,7 @@ msgstr "Email partner"
 
 #. module: sql_export_mail
 #. odoo-python
-#: code:addons/sql_export_mail/models/sql_export.py
+#: code:addons/sql_export_mail/models/sql_export.py:0
 #, python-format
 msgid "Missing email address for partner(s): %(names)s"
 msgstr "Nedostaju email adrese za partnera(e): %(names)s"
@@ -123,7 +123,7 @@ msgstr "SQL izvoz"
 
 #. module: sql_export_mail
 #. odoo-python
-#: code:addons/sql_export_mail/models/sql_export.py
+#: code:addons/sql_export_mail/models/sql_export.py:0
 #, python-format
 msgid "The user does not have any e-mail address."
 msgstr "Korisnik nema email adresu."
@@ -141,4 +141,4 @@ msgstr "Korisnici obaviješteni emailom"
 #. module: sql_export_mail
 #: model:mail.template,subject:sql_export_mail.sql_export_mailer
 msgid "{{object.name or ''}}"
-msgstr "{{object.name or ''}}"
+msgstr ""

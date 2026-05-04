@@ -16,12 +16,12 @@ msgstr ""
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label_line__label_no
 msgid "# labels"
-msgstr "# labels"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__font__b
 msgid "11x7"
-msgstr "11x7"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2__labelary_dpmm__12dpmm
@@ -31,27 +31,27 @@ msgstr "12dpmm (300 dpi)"
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__font__d
 msgid "18x10"
-msgstr "18x10"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__font__h
 msgid "21x13"
-msgstr "21x13"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2__labelary_dpmm__24dpmm
 msgid "24dpmm (600 dpi)"
-msgstr "24dpmm (600 dpi)"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__font__f
 msgid "26x13"
-msgstr "26x13"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__font__e
 msgid "28x15"
-msgstr "28x15"
+msgstr ""
 
 # taken from hr.po
 #. module: printer_zpl2
@@ -63,7 +63,7 @@ msgstr "Format barkoda"
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__font__g
 msgid "60x40"
-msgstr "60x40"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2__labelary_dpmm__6dpmm
@@ -73,7 +73,7 @@ msgstr "6dpmm (152 dpi)"
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2__labelary_dpmm__8dpmm
 msgid "8dpmm (203 dpi)"
-msgstr "8dpmm (203 dpi)"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__font__a
@@ -88,12 +88,12 @@ msgstr "Akcija"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: printer_zpl2
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
 msgid "Add in the 'Action' menu"
-msgstr "Add in the 'Action' menu"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__sublabel_id
@@ -112,12 +112,12 @@ msgstr "Arhivirano"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__data_autofill
 msgid "Autofill Data"
-msgstr "Autofill Data"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__bar_width_ratio
 msgid "Bar Width Ratio"
-msgstr "Bar Width Ratio"
+msgstr ""
 
 # taken from hr.po
 #. module: printer_zpl2
@@ -172,7 +172,7 @@ msgstr "Centrirano"
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__data_autofill
 msgid "Change 'data' with dictionary of the object information."
-msgstr "Change 'data' with dictionary of the object information."
+msgstr ""
 
 # taken from hr.po
 #. module: printer_zpl2
@@ -210,7 +210,7 @@ msgstr "Označite ovo polje za ponavljanje ove komponente na naljepnici."
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__block_justify
 msgid "Choose how the text will be justified in the block."
-msgstr "Choose how the text will be justified in the block."
+msgstr ""
 
 # taken from hr.po
 #. module: printer_zpl2
@@ -265,7 +265,7 @@ msgstr "Komponente"
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2__component_ids
 msgid "Components which will be printed on the label."
-msgstr "Components which will be printed on the label."
+msgstr ""
 
 # taken from hr.po
 #. module: printer_zpl2
@@ -327,7 +327,7 @@ msgstr "Orjentacija"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Naziv za prikaz"
 
 #. module: printer_zpl2
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
@@ -337,17 +337,17 @@ msgstr "Prikaži an option on related documents."
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__ean-13
 msgid "EAN-13"
-msgstr "EAN-13"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__ean-8
 msgid "EAN-8"
-msgstr "EAN-8"
+msgstr ""
 
 #. module: printer_zpl2
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
 msgid "Emulation"
-msgstr "Emulation"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__model__2
@@ -357,7 +357,7 @@ msgstr "Poboljšani"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__error_correction
 msgid "Error Correction"
-msgstr "Error Correction"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__error_correction
@@ -366,10 +366,10 @@ msgstr "Error correction for some barcode types like QR Šifra."
 
 #. module: printer_zpl2
 #. odoo-python
-#: code:addons/printer_zpl2/models/printing_label_zpl2.py
+#: code:addons/printer_zpl2/models/printing_label_zpl2.py:0
 #, python-format
 msgid "Error with Labelary API. %s"
-msgstr "Error with Labelary API. %s"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__extra
@@ -379,7 +379,7 @@ msgstr "Ekstra"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__font
 msgid "Font"
-msgstr "Font"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__font
@@ -389,7 +389,7 @@ msgstr "Font za korištenje, samo za tekst."
 #. module: printer_zpl2
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
 msgid "Format"
-msgstr "Format"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__graphic
@@ -453,7 +453,7 @@ msgstr "Slika"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__labelary_image
 msgid "Image from Labelary"
-msgstr "Image from Labelary"
+msgstr ""
 
 #. module: printer_zpl2
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_wizard_import_zpl2_form
@@ -462,20 +462,20 @@ msgstr "Uvoz"
 
 #. module: printer_zpl2
 #. odoo-python
-#: code:addons/printer_zpl2/wizard/wizard_import_zpl2.py
+#: code:addons/printer_zpl2/wizard/wizard_import_zpl2.py:0
 #, python-format
 msgid "Import %s"
-msgstr "Import %s"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model,name:printer_zpl2.model_wizard_import_zpl2
 msgid "Import ZPL2"
-msgstr "Import ZPL2"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__in_block
 msgid "In Block"
-msgstr "In Block"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__interleaved_2_of_5
@@ -485,12 +485,12 @@ msgstr "Interleaved 2 od 5"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__interpretation_line
 msgid "Interpretation Line"
-msgstr "Interpretation Line"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__interpretation_line_above
 msgid "Interpretation Line Above"
-msgstr "Interpretation Line Above"
+msgstr ""
 
 # taken from hr.po
 #. module: printer_zpl2
@@ -514,22 +514,22 @@ msgstr "Poravnaj"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__label_id
 msgid "Label"
-msgstr "Labela"
+msgstr "Oznaka"
 
 #. module: printer_zpl2
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
 msgid "Label Component"
-msgstr "Label Component"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__component_ids
 msgid "Label Components"
-msgstr "Label Components"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label_line__label_header_id
 msgid "Label Header"
-msgstr "Label Header"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2__name
@@ -550,7 +550,7 @@ msgstr "Naljepnica koja koristi ovu komponentu."
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2____last_update
 msgid "Last Modified on"
-msgstr "Zadnje modificirano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: printer_zpl2
@@ -562,7 +562,7 @@ msgstr "Zadnji ažurirao"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje"
+msgstr "Zadnje ažurirano"
 
 # taken from hr.po
 #. module: printer_zpl2
@@ -586,7 +586,7 @@ msgstr "Ljeva margina"
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__block_left_margin
 msgid "Left margin for the second and other lines in the block."
-msgstr "Left margin for the second and other lines in the block."
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label__line_ids
@@ -601,7 +601,7 @@ msgstr "Long Opis for this label."
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__magnification_factor
 msgid "Magnification Factor"
-msgstr "Magnification Factor"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__magnification_factor
@@ -631,7 +631,7 @@ msgstr "Maximum Broj of lines to Štampaj in the block."
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__test_labelary_mode
 msgid "Mode Labelary"
-msgstr "Mode Labelary"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__test_print_mode
@@ -641,7 +641,7 @@ msgstr "Mode Štampaj"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__model_id
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label__model
@@ -656,7 +656,7 @@ msgstr "Model used to Štampaj this label."
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__module_width
 msgid "Module Width"
-msgstr "Module Width"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__module_width
@@ -686,8 +686,6 @@ msgid ""
 "Note : It is an emulation from http://labelary.com/, the result on printer "
 "can be different."
 msgstr ""
-"Note : It is an emulation from http://labelary.com/, the result on printer "
-"can be different."
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__columns_count
@@ -742,12 +740,12 @@ msgstr "Orjentacija barkoda."
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__origin_x
 msgid "Origin X"
-msgstr "Origin X"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__origin_y
 msgid "Origin Y"
-msgstr "Origin Y"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__origin_x
@@ -762,12 +760,12 @@ msgstr "Početna tačka komponente na naljepnici, Y koordinata."
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2__origin_x
 msgid "Origin point of the contents in the label, X coordinate."
-msgstr "Origin point of the contents in the label, X coordinate."
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2__origin_y
 msgid "Origin point of the contents in the label, Y coordinate."
-msgstr "Origin point of the contents in the label, Y coordinate."
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__model__1
@@ -777,11 +775,11 @@ msgstr "Originalni"
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__pdf417
 msgid "PDF417"
-msgstr "PDF417"
+msgstr ""
 
 #. module: printer_zpl2
 #. odoo-python
-#: code:addons/printer_zpl2/models/printing_label_zpl2.py
+#: code:addons/printer_zpl2/models/printing_label_zpl2.py:0
 #, python-format
 msgid "Print Label"
 msgstr "Ispiši naljepnicu"
@@ -836,7 +834,7 @@ msgstr "QR kod"
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__bar_width_ratio
 msgid "Ratio between wide bar and narrow bar."
-msgstr "Ratio between wide bar and narrow bar."
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__orientation__b
@@ -851,7 +849,7 @@ msgstr "ID zapisa"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__model_id
 msgid "Record's model"
-msgstr "Record's model"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__rectangle
@@ -861,12 +859,12 @@ msgstr "Pravougaonik / Linija"
 #. module: printer_zpl2
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
 msgid "Remove from the 'Action' menu"
-msgstr "Remove from the 'Action' menu"
+msgstr ""
 
 #. module: printer_zpl2
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
 msgid "Remove the contextual action."
-msgstr "Remove the contextual action."
+msgstr ""
 
 #. module: printer_zpl2
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
@@ -876,27 +874,27 @@ msgstr "Ponavljaj"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__repeat_count
 msgid "Repeat Count"
-msgstr "Repeat Count"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__repeat_offset
 msgid "Repeat Offset"
-msgstr "Repeat Offset"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__repeat_offset_x
 msgid "Repeat Offset X"
-msgstr "Repeat Offset X"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__repeat_offset_y
 msgid "Repeat Offset Y"
-msgstr "Repeat Offset Y"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__repeat
 msgid "Repeatable"
-msgstr "Repeatable"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__restore_saved_config
@@ -948,7 +946,7 @@ msgstr "Broj kolona"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__security_level
 msgid "Security Level"
-msgstr "Security Level"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__security_level
@@ -958,7 +956,7 @@ msgstr "Nivo sigurnosti za detekciju grešaka."
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__error_correction__m
@@ -968,7 +966,7 @@ msgstr "Standardni nivo"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__sublabel_id
 msgid "Sublabel"
-msgstr "Sublabel"
+msgstr ""
 
 #. module: printer_zpl2
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
@@ -983,12 +981,12 @@ msgstr "Tekst"
 #. module: printer_zpl2
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
 msgid "Text Block Format"
-msgstr "Text Block Format"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__thickness
 msgid "Thickness"
-msgstr "Thickness"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__thickness
@@ -1006,15 +1004,15 @@ msgstr ""
 
 #. module: printer_zpl2
 #. odoo-python
-#: code:addons/printer_zpl2/models/printing_label_zpl2.py
+#: code:addons/printer_zpl2/models/printing_label_zpl2.py:0
 #, python-format
 msgid "This label cannot be used on {model}"
-msgstr "This label cannot be used on {model}"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__truncate
 msgid "Truncate"
-msgstr "Truncate"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__component_type
@@ -1029,7 +1027,7 @@ msgstr "Tip of content, simple text or barcode."
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__upc-e
 msgid "UPC-E"
-msgstr "UPC-E"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__error_correction__h
@@ -1049,17 +1047,17 @@ msgstr "Širina"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__labelary_width
 msgid "Width in mm"
-msgstr "Width in mm"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__block_width
 msgid "Width of the block."
-msgstr "Width of the block."
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2__width
 msgid "Width of the label, will be set on the printer before printing."
-msgstr "Width of the label, will be set on the printer before printing."
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__width
@@ -1085,7 +1083,7 @@ msgstr ""
 
 #. module: printer_zpl2
 #. odoo-python
-#: code:addons/printer_zpl2/models/printing_label_zpl2.py
+#: code:addons/printer_zpl2/models/printing_label_zpl2.py:0
 #, python-format
 msgid "You can not create recursive labels."
 msgstr "You can not Kreiraj recursive labels."
@@ -1093,19 +1091,19 @@ msgstr "You can not Kreiraj recursive labels."
 #. module: printer_zpl2
 #: model:ir.model,name:printer_zpl2.model_printing_label_zpl2
 msgid "ZPL II Label"
-msgstr "ZPL II Label"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model,name:printer_zpl2.model_printing_label_zpl2_component
 msgid "ZPL II Label Component"
-msgstr "ZPL II Label Component"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.actions.act_window,name:printer_zpl2.act_open_printing_label_zpl2_view
 msgid "ZPL II Labels"
-msgstr "ZPL II Labels"
+msgstr ""
 
 #. module: printer_zpl2
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__zpl2_raw
 msgid "ZPL2"
-msgstr "ZPL2"
+msgstr ""

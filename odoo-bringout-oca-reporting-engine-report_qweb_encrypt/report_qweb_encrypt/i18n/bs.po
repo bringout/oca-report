@@ -25,11 +25,11 @@ msgstr ""
 #. module: report_qweb_encrypt
 #: model:ir.model.fields.selection,name:report_qweb_encrypt.selection__ir_actions_report__encrypt__auto
 msgid "Auto Generated Password"
-msgstr "Auto Generated Password"
+msgstr ""
 
 #. module: report_qweb_encrypt
 #. odoo-javascript
-#: code:addons/report_qweb_encrypt/static/src/report/encrypt_dialog.xml
+#: code:addons/report_qweb_encrypt/static/src/report/encrypt_dialog.xml:0
 #, python-format
 msgid "Cancel"
 msgstr "Otkaži"
@@ -37,21 +37,21 @@ msgstr "Otkaži"
 #. module: report_qweb_encrypt
 #: model:ir.model.fields,field_description:report_qweb_encrypt.field_ir_actions_report__encrypt_password
 msgid "Encrypt Password"
-msgstr "Encrypt Password"
+msgstr ""
 
 #. module: report_qweb_encrypt
 #: model:ir.model.fields,field_description:report_qweb_encrypt.field_ir_actions_report__encrypt
 msgid "Encryption"
-msgstr "Encryption"
+msgstr ""
 
 #. module: report_qweb_encrypt
 #: model:ir.model.fields.selection,name:report_qweb_encrypt.selection__ir_actions_report__encrypt__manual
 msgid "Manual Input Password"
-msgstr "Manual Input Password"
+msgstr ""
 
 #. module: report_qweb_encrypt
 #. odoo-javascript
-#: code:addons/report_qweb_encrypt/static/src/report/encrypt_dialog.xml
+#: code:addons/report_qweb_encrypt/static/src/report/encrypt_dialog.xml:0
 #, python-format
 msgid "Ok"
 msgstr "Uredu"
@@ -63,7 +63,7 @@ msgstr "Python Šifra syntax to gnerate password."
 
 #. module: report_qweb_encrypt
 #. odoo-python
-#: code:addons/report_qweb_encrypt/models/ir_actions_report.py
+#: code:addons/report_qweb_encrypt/models/ir_actions_report.py:0
 #, python-format
 msgid ""
 "Python code used for encryption password is invalid.\n"
@@ -80,4 +80,4 @@ msgstr "Akcija izvještaja"
 #. module: report_qweb_encrypt
 #: model_terms:ir.ui.view,arch_db:report_qweb_encrypt.ir_actions_report_form_view
 msgid "python syntax, i.e., (object.default_code or 'secretcode')"
-msgstr "python syntax, i.e., (object.default_code or 'secretcode')"
+msgstr ""

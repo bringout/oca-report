@@ -21,7 +21,7 @@ msgstr "Dozvoli korisniku da sačuva datoteku sa podacima SQL zahtjeva"
 #. module: sql_export_delta
 #: model:ir.model.fields,field_description:sql_export_delta.field_sql_export__export_delta
 msgid "Delta"
-msgstr "Delta"
+msgstr ""
 
 #. module: sql_export_delta
 #: model:ir.model,name:sql_export_delta.model_sql_export

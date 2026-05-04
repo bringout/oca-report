@@ -81,7 +81,7 @@ msgstr ""
 #. module: report_xml
 #: model:ir.model.fields.selection,name:report_xml.selection__ir_actions_report__xml_encoding__utf-8
 msgid "UTF-8"
-msgstr "UTF-8"
+msgstr ""
 
 #. module: report_xml
 #: model:ir.model.fields.selection,name:report_xml.selection__ir_actions_report__report_type__qweb-xml
@@ -112,3 +112,13 @@ msgstr "XSD shema za validaciju"
 #: model:ir.model.fields,field_description:report_xml.field_ir_actions_report__xml_extension
 msgid "Xml Extension"
 msgstr "XML ekstenzija"
+
+#. module: report_xml
+#: model:ir.model.fields,field_description:report_xml.field_ir_actions_report__display_name
+msgid "Display Name"
+msgstr "Naziv za prikaz"
+
+#. module: report_xml
+#: model:ir.model.fields,field_description:report_xml.field_ir_actions_report__id
+msgid "ID"
+msgstr "ID"

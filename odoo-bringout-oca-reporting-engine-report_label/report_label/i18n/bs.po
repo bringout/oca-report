@@ -41,7 +41,7 @@ msgstr "Kreirano"
 #. module: report_label
 #: model:ir.model.fields,field_description:report_label.field_report_label_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: report_label
 #: model:ir.model.fields,field_description:report_label.field_report_label_wizard__id
@@ -146,7 +146,7 @@ msgstr "Konfiguracija formata papira labele"
 #. module: report_label
 #: model:ir.model.fields,field_description:report_label.field_report_label_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: report_label
 #: model:ir.model.fields,field_description:report_label.field_report_label_wizard__write_uid
@@ -171,12 +171,12 @@ msgstr "Stavke"
 #. module: report_label
 #: model:ir.model.fields,field_description:report_label.field_report_label_wizard__model_id
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 #. module: report_label
 #: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: report_label
 #: model:ir.model.fields,help:report_label.field_report_label_wizard__offset
@@ -261,7 +261,7 @@ msgstr "Desno (mm)"
 #. module: report_label
 #: model:ir.model.fields,field_description:report_label.field_report_label_wizard_line__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: report_label
 #: model:ir.model,name:report_label.model_ir_actions_server

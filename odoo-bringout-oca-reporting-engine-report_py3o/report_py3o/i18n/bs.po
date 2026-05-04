@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: report_py3o
 #. odoo-python
-#: code:addons/report_py3o/models/ir_actions_report.py
+#: code:addons/report_py3o/models/ir_actions_report.py:0
 #, python-format
 msgid "(Native)"
 msgstr "(Nativno)"
@@ -36,7 +36,7 @@ msgstr "Kreirano"
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_template_fallback
@@ -45,7 +45,7 @@ msgstr "Rezerva"
 
 #. module: report_py3o
 #. odoo-python
-#: code:addons/report_py3o/models/ir_actions_report.py
+#: code:addons/report_py3o/models/ir_actions_report.py:0
 #, python-format
 msgid "Field 'Output Format' is required for Py3O report"
 msgstr "Polje 'Izlazni format' je obavezno za Py3O izvještaj"
@@ -108,7 +108,7 @@ msgstr "Py3O izvještaj nije dostupan"
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: report_py3o
@@ -134,7 +134,7 @@ msgstr "Tip datoteke LibreOffice template-a"
 
 #. module: report_py3o
 #. odoo-python
-#: code:addons/report_py3o/models/py3o_report.py
+#: code:addons/report_py3o/models/py3o_report.py:0
 #, python-format
 msgid "Libreoffice runtime not available. Please contact your administrator."
 msgstr ""
@@ -160,11 +160,11 @@ msgstr "Više zapisa u jednom izvještaju"
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__name
 msgid "Name"
-msgstr "Ime"
+msgstr "Naziv"
 
 #. module: report_py3o
 #. odoo-python
-#: code:addons/report_py3o/models/py3o_report.py
+#: code:addons/report_py3o/models/py3o_report.py:0
 #, python-format
 msgid "No template found. Aborting."
 msgstr "Template nije pronađen. Prekidam."
@@ -172,32 +172,32 @@ msgstr "Template nije pronađen. Prekidam."
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__odp
 msgid "ODF Presentation"
-msgstr "ODF Presentation"
+msgstr ""
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__fodp
 msgid "ODF Presentation (Flat)"
-msgstr "ODF Presentation (Flat)"
+msgstr ""
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__ods
 msgid "ODF Spreadsheet"
-msgstr "ODF Spreadsheet"
+msgstr ""
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__fods
 msgid "ODF Spreadsheet (Flat)"
-msgstr "ODF Spreadsheet (Flat)"
+msgstr ""
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__odt
 msgid "ODF Text Document"
-msgstr "ODF Text Document"
+msgstr ""
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__fodt
 msgid "ODF Text Document (Flat)"
-msgstr "ODF Text Document (Flat)"
+msgstr ""
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_filetype
@@ -227,7 +227,7 @@ msgstr "Py3o template-i"
 #. module: report_py3o
 #: model:ir.model,name:report_py3o.model_py3o_template
 msgid "Py3o template"
-msgstr "Py3o template"
+msgstr ""
 
 # taken from hr.po
 #. module: report_py3o
@@ -246,7 +246,7 @@ msgstr "Izvještaj Py30"
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__report_type
 #, fuzzy
 msgid "Report Type"
-msgstr "Izvještaj"
+msgstr "Tip izvještaja"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_template_id
@@ -260,7 +260,7 @@ msgstr "The implementer module that provides this Izvještaj"
 
 #. module: report_py3o
 #. odoo-python
-#: code:addons/report_py3o/models/ir_actions_report.py
+#: code:addons/report_py3o/models/ir_actions_report.py:0
 #, python-format
 msgid ""
 "The libreoffice runtime is required to genereate the py3o report '%s' but is"
@@ -291,9 +291,9 @@ msgstr ""
 #. module: report_py3o
 #: model:ir.actions.report,print_report_name:report_py3o.res_users_report_py3o
 msgid "object.name.replace(' ', '_') + '-demo.odt'"
-msgstr "object.name.replace(' ', '_') + '-demo.odt'"
+msgstr ""
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__ir_actions_report__report_type__py3o
 msgid "py3o"
-msgstr "py3o"
+msgstr ""

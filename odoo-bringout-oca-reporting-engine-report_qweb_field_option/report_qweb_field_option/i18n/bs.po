@@ -59,7 +59,7 @@ msgstr "Znamenke"
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__field_id
@@ -98,17 +98,17 @@ msgstr ""
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__res_model_id

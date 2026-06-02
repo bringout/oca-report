@@ -171,7 +171,7 @@ msgstr "Prikaži Document Title"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__document_password
@@ -362,19 +362,19 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form

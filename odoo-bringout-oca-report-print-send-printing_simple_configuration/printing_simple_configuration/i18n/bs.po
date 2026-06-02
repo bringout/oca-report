@@ -68,7 +68,7 @@ msgstr ""
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_printer__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: printing_simple_configuration
 #: model_terms:ir.ui.view,arch_db:printing_simple_configuration.print_config_form
@@ -121,17 +121,17 @@ msgstr "Je pratilac"
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: printing_simple_configuration
 #: model:ir.model.fields,field_description:printing_simple_configuration.field_print_config__message_main_attachment_id

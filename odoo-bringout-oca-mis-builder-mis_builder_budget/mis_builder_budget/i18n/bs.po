@@ -49,7 +49,7 @@ msgstr "%s početni datum ne smije biti nakon završnog datuma"
 #. module: mis_builder_budget
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__account_id
 msgid "Account"
-msgstr "Naziv konta"
+msgstr "Konto"
 
 #. module: mis_builder_budget
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__message_needaction
@@ -97,7 +97,7 @@ msgstr "Pretraga analitičkih distribucija"
 #. module: mis_builder_budget
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__analytic_precision
 msgid "Analytic Precision"
-msgstr "Preciznost analitike"
+msgstr "Analitička preciznost"
 
 #. module: mis_builder_budget
 #: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_by_account_form_view
@@ -152,7 +152,7 @@ msgstr "Budžetabilan"
 #. module: mis_builder_budget
 #: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_by_account_form_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: mis_builder_budget
 #: model:ir.model.fields.selection,name:mis_builder_budget.selection__mis_budget__state__cancelled
@@ -167,7 +167,7 @@ msgstr "Kompanija"
 #. module: mis_builder_budget
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__company_currency_id
 msgid "Company Currency"
-msgstr "Valuta preduzeća"
+msgstr "Valuta kompanije"
 
 #. module: mis_builder_budget
 #: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_by_account_form_view
@@ -217,7 +217,7 @@ msgstr "Opis"
 #. module: mis_builder_budget
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: mis_builder_budget
 #: model:ir.model.fields.selection,name:mis_builder_budget.selection__mis_budget__state__draft
@@ -300,17 +300,17 @@ msgstr "Oznaka"
 #. module: mis_builder_budget
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: mis_builder_budget
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: mis_builder_budget
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: mis_builder_budget
 #: model:ir.model,name:mis_builder_budget.model_mis_budget_abstract

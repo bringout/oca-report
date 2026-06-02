@@ -32,7 +32,7 @@ msgstr ""
 #: code:addons/report_qweb_encrypt/static/src/report/encrypt_dialog.xml:0
 #, python-format
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: report_qweb_encrypt
 #: model:ir.model.fields,field_description:report_qweb_encrypt.field_ir_actions_report__encrypt_password

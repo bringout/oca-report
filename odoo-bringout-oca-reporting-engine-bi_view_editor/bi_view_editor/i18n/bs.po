@@ -99,7 +99,7 @@ msgstr "Bve prikaz"
 #: code:addons/bi_view_editor/static/src/components/bi_view_editor/join_node_dialog.xml:0
 #, python-format
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: bi_view_editor
 #. odoo-javascript
@@ -191,7 +191,7 @@ msgstr "Detalji"
 #. module: bi_view_editor
 #: model:ir.model.fields,field_description:bi_view_editor.field_bve_view__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: bi_view_editor
 #: model:ir.model.fields.selection,name:bi_view_editor.selection__bve_view__state__draft
@@ -322,19 +322,19 @@ msgstr "Spoji..."
 #. module: bi_view_editor
 #: model:ir.model.fields,field_description:bi_view_editor.field_bve_view____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: bi_view_editor
 #: model:ir.model.fields,field_description:bi_view_editor.field_bve_view__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: bi_view_editor
 #: model:ir.model.fields,field_description:bi_view_editor.field_bve_view__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: bi_view_editor
 #: model:ir.model.fields,field_description:bi_view_editor.field_bve_view_line__left_join
@@ -410,7 +410,7 @@ msgstr "Nema podataka za obradu."
 #. module: bi_view_editor
 #: model:ir.model.fields,field_description:bi_view_editor.field_bve_view__note
 msgid "Notes"
-msgstr "Bilješke"
+msgstr "Napomene"
 
 #. module: bi_view_editor
 #: model_terms:ir.ui.view,arch_db:bi_view_editor.view_bi_view_editor_view_form
@@ -562,7 +562,7 @@ msgstr "Korisnici"
 #. module: bi_view_editor
 #: model:ir.model.fields,field_description:bi_view_editor.field_bve_view__view_id
 msgid "View"
-msgstr "Pregled"
+msgstr "Prikaz"
 
 #. module: bi_view_editor
 #: model:ir.model.fields,field_description:bi_view_editor.field_bve_view_line__view_field_type

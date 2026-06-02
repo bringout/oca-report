@@ -318,7 +318,7 @@ msgstr ""
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report_query__aggregate
 msgid "Aggregate"
-msgstr "Zbrajanje"
+msgstr "Agregat"
 
 # taken from hr.po
 #. module: mis_builder
@@ -432,7 +432,7 @@ msgstr "Podebljano"
 #: code:addons/mis_builder/static/src/components/mis_report_widget.esm.js:0
 #, python-format
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: mis_builder
 #: model:ir.model.fields,help:mis_builder.field_mis_report_instance__multi_company
@@ -620,7 +620,7 @@ msgstr "Prikaz opisa kolona"
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_add_mis_report_instance_dashboard_wizard__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report_kpi__auto_expand_accounts
@@ -964,7 +964,7 @@ msgstr "Ležeći PDF"
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_add_mis_report_instance_dashboard_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: mis_builder
 #: model:ir.actions.act_window,name:mis_builder.last_mis_report_instance_view_action
@@ -974,12 +974,12 @@ msgstr "Posljednji generirani izvještaji"
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_add_mis_report_instance_dashboard_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_add_mis_report_instance_dashboard_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: mis_builder
 #: model_terms:ir.ui.view,arch_db:mis_builder.mis_report_instance_view_form
@@ -1373,7 +1373,7 @@ msgstr "Zaokruživanje nasljeđivanja"
 #: code:addons/mis_builder/static/src/components/mis_report_widget.esm.js:0
 #, python-format
 msgid "Save"
-msgstr "Spremi"
+msgstr "Snimi"
 
 #. module: mis_builder
 #: model:ir.model.fields,help:mis_builder.field_mis_report_instance__widget_search_view_id

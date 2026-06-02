@@ -223,7 +223,7 @@ msgstr "Obriši UI"
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__domain_force
@@ -382,19 +382,19 @@ msgstr ""
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__message_main_attachment_id

@@ -161,7 +161,7 @@ msgstr "Širina bloka"
 #. module: printer_zpl2
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_wizard_import_zpl2_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 # taken from hr.po
 #. module: printer_zpl2
@@ -327,7 +327,7 @@ msgstr "Orjentacija"
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: printer_zpl2
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
@@ -550,19 +550,19 @@ msgstr "Naljepnica koja koristi ovu komponentu."
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: printer_zpl2
 #: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 # taken from hr.po
 #. module: printer_zpl2

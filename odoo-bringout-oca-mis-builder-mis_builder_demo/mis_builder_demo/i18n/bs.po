@@ -21,7 +21,7 @@ msgstr "3 M budžet"
 #. module: mis_builder_demo
 #: model:ir.model.fields,field_description:mis_builder_demo.field_mis_committed_purchase__account_id
 msgid "Account"
-msgstr "Naziv konta"
+msgstr "Konto"
 
 #. module: mis_builder_demo
 #: model:mis.report.instance.period,name:mis_builder_demo.mis_report_instance_expenses_avail
@@ -66,7 +66,7 @@ msgstr "Demo troškovi vs budžet"
 #. module: mis_builder_demo
 #: model:ir.model.fields,field_description:mis_builder_demo.field_mis_committed_purchase__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: mis_builder_demo
 #: model:mis.report.kpi,description:mis_builder_demo.mis_report_expenses_kpi_equip
@@ -86,7 +86,7 @@ msgstr "ID"
 #. module: mis_builder_demo
 #: model:ir.model.fields,field_description:mis_builder_demo.field_mis_committed_purchase____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: mis_builder_demo
 #: model:ir.model.fields,field_description:mis_builder_demo.field_mis_committed_purchase__line_type

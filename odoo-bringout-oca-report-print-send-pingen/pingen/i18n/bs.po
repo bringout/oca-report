@@ -71,7 +71,7 @@ msgstr "Kompanija"
 #. module: pingen
 #: model:ir.model,name:pingen.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: pingen
 #: model:ir.model.fields.selection,name:pingen.selection__pingen_document__state__error
@@ -162,7 +162,7 @@ msgstr "Opis"
 #. module: pingen
 #: model:ir.model.fields,field_description:pingen.field_pingen_document__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: pingen
 #: model:ir.model.fields,field_description:pingen.field_pingen_document__attachment_id
@@ -292,17 +292,17 @@ msgstr "Je javni dokument"
 #. module: pingen
 #: model:ir.model.fields,field_description:pingen.field_pingen_document____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: pingen
 #: model:ir.model.fields,field_description:pingen.field_pingen_document__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: pingen
 #: model:ir.model.fields,field_description:pingen.field_pingen_document__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: pingen
 #: model:ir.model.fields,field_description:pingen.field_pingen_document__mimetype

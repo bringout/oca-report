@@ -49,7 +49,7 @@ msgstr "Certifikati (PDF potpisivanje)"
 #. module: report_qweb_signer
 #: model:ir.model,name:report_qweb_signer.model_res_company
 msgid "Companies"
-msgstr "Poduzeća"
+msgstr "Kompanije"
 
 # taken from hr.po
 #. module: report_qweb_signer
@@ -73,7 +73,7 @@ msgstr "Kreirano"
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__domain
@@ -127,19 +127,19 @@ msgstr ""
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: report_qweb_signer
 #: model:ir.model.fields,field_description:report_qweb_signer.field_report_certificate__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: report_qweb_signer
 #: model:ir.model.fields,help:report_qweb_signer.field_report_certificate__endesive_certificate_location

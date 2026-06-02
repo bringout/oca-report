@@ -47,7 +47,7 @@ msgstr "CSV"
 #. module: sql_export
 #: model_terms:ir.ui.view,arch_db:sql_export.sql_file_wizard_view_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: sql_export
 #: model:ir.model.fields,help:sql_export.field_sql_export__keep_generated_file
@@ -85,7 +85,7 @@ msgstr "CSV datoteka"
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__encoding
@@ -179,19 +179,19 @@ msgstr "Datum poslednjeg izvršavanja"
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__last_execution_uid

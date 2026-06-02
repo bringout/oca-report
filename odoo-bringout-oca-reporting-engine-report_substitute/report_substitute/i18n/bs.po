@@ -31,7 +31,7 @@ msgstr "Kreirano"
 #. module: report_substitute
 #: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: report_substitute
 #: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__domain
@@ -56,17 +56,17 @@ msgstr "ID"
 #. module: report_substitute
 #: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: report_substitute
 #: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: report_substitute
 #: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: report_substitute
 #: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__model
